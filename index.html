@@ -2,28 +2,6 @@
 <html>
 <head>
 <title>Music Madness!</title>
-<script type="text/javascript">
-	function redirecthome()
-	    {
-	    location.href("http://musicmadness.me");
-	    }
-	function redirectabout()
-	    {
-	    location.href("http://musicmadness.me/about");
-	    }
-	function redirectsongs()
-	    {
-	    location.href("http://musicmadness.me/songs");
-	    }
-	function redirectartists()
-	    {
-	    location.href("http://musicmadness.me/artists");
-	    }
-	function redirectlabels()
-	    {
-	    location.href("http://musicmadness.me/labels");
-	    }
-</script>
 <style type="text/CSS">
  /* Style the tab */
 div.tab {
@@ -64,11 +42,11 @@ div.tab button.active {
 </head>
 <body>
 <div class="tab">
-	<button class="tablinks" onclick="redirecthome()">Home</button>
-	<button class="tablinks" onclick="redirectabout()">About</button>
-	<button class="tablinks" onclick="redirectsongs()">Music</button>
-	<button class="tablinks" onclick="redirectartists()">Artists</button>
-	<button class="tablinks" onclick="redirectlabels()">Labels</button>
+	<button class="tablinks" onclick="location.href='http://musicmadness.me'">Home</button>
+	<button class="tablinks" onclick="location.href='http://musicmadness.me/about.html'">About</button>
+	<button class="tablinks" onclick="location.href='http://musicmadness.me/songs.html'">Songs</button>
+	<button class="tablinks" onclick="location.href='http://musicmadness.me/artists'">Artists</button>
+	<button class="tablinks" onclick="location.href='http://musicmadness.me/labels'">Labels</button>
 </div>
 </body>	
 </html>
