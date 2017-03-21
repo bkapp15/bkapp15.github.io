@@ -39,6 +39,11 @@ div.tab button.active {
 }
 </style>
 <script>
+function redirectHome()
+    {
+    var url = "http://musicmadness.me";
+    window.location(url);
+    }
 function redirectAbout()
     {
     var url = "http://musicmadness.me/about";
@@ -48,10 +53,11 @@ function redirectAbout()
 </head>
 <body>
 <div class="tab">
-  <button class="tablinks" onclick="redirectAbout()">London</button>
-  <button class="tablinks" onclick="">Music</button>
-  <button class="tablinks" onclick="">Artists</button>
-  <button class="tablinks" onclick="">Labels</button>
+	<button class="tablinks" onclick="redirectHome()">About</button>
+	<button class="tablinks" onclick="redirectAbout()">About</button>
+	<button class="tablinks" onclick="">Music</button>
+	<button class="tablinks" onclick="">Artists</button>
+	<button class="tablinks" onclick="">Labels</button>
 </div>
 </body>
 </html>
