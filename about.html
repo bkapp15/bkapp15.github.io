@@ -9,7 +9,6 @@ div.tab {
     border: 1px solid #ccc;
     background-color: #f1f1f1;
 }
-
 /* Style the buttons inside the tab */
 div.tab button {
     background-color: inherit;
@@ -20,17 +19,14 @@ div.tab button {
     padding: 14px 16px;
     transition: 0.3s;
 }
-
 /* Change background color of buttons on hover */
 div.tab button:hover {
     background-color: #ddd;
 }
-
 /* Create an active/current tablink class */
 div.tab button.active {
     background-color: #ccc;
 }
-
 /* Style the tab content */
 .tabcontent {
     display: none;
@@ -38,26 +34,36 @@ div.tab button.active {
     border: 1px solid #ccc;
     border-top: none;
 }
+td, th, tr, table {border: 1px black solid;}
+table {
+    border-collapse: collapse;
+    width: 90%
+    }
 </style>
 </head>
-<body style='background-color:#5481af'>
+<body>
 <div class="tab">
-	<button class="tablinks" onclick="location.href='http://musicmadness.me'">Home</button>
-	<button class="tablinks" onclick="location.href='http://musicmadness.me/about.html'">About</button>
-	<button class="tablinks" onclick="location.href='http://musicmadness.me/songs.html'">Songs</button>
-	<button class="tablinks" onclick="location.href='http://musicmadness.me/artists.html'">Artists</button>
-	<button class="tablinks" onclick="location.href='http://musicmadness.me/labels.html'">Labels</button>
+    <button class="tablinks" onclick="location.href='http://musicmadness.me'">Home</button>
+    <button class="tablinks" onclick="location.href='http://musicmadness.me/about.html'">About</button>
+    <button class="tablinks" onclick="location.href='http://musicmadness.me/songs.html'">Songs</button>
+    <button class="tablinks" onclick="location.href='http://musicmadness.me/artists.html'">Artists</button>
+    <button class="tablinks" onclick="location.href='http://musicmadness.me/labels.html'">Labels</button>
 </div>
-<div style='text-align:center'>
-<h1 style='color: white;font-size:50px'> About Us</h1>
+<h1 style='font-size:50px;text-align:center'> About Us</h1>
+<div style="float:left; width:60%;text-align:center">
 <h2 style='color: #0e365f; margin-top:50px'> Team Name</h2>
-<h4> Music Madness </h4>
-<h2 style='color: #0e365f; margin-top:50px'> Team Members</h2>
-<h4> Allen Fernandes </h4>
-<h4> Roger Craycroft </h4>
-<h4> Blake Kappel </h4>
-<h4> Rebecca Bingham </h4>
-<h4> Kayla Mayberry </h4>
+<h1> Music Madness </h1>
+<h2  style='color: #0e365f; margin-top:50px'> Team Members</h2>
+<table>
+<tr><th>Name</th><th>Image</th><th>Bio</th><th>Responsibilities</th></tr>
+<tr><td>Allen Fernandes</td><td><img src="allen.jpg" alt="Allen" style="width:100px;height:100px;"></td><td>MS in Information Studies</td><td>Splash, About, Navigation</td></tr>
+<tr><td>Roger Craycroft</td><td><img src="roger.jpg" alt="Roger" style="width:100px;height:100px;"></td><td>Senior Year, Hydrogeology</td><td>Record label pages, Technical report Co-editor</td></tr>
+<tr><td>Blake Kappel</td><td><img src="blake.jpg" alt="Blake" style="width:100px;height:100px;"></td><td>Senior Year, International Relations & Global Studies</td><td>Song Pages, Technical report Co-editor</td></tr>
+<tr><td>Rebecca Bingham</td><td><img src="rebecca.jpg" alt="Rebecca" style="width:100px;height:100px;"></td><td>Senior Year, Management in Information Systems</td><td>Artist Pages, Lead Tester</td></tr>
+<tr><td>Kayla Mayberry</td><td><img src="kayla.jpg" alt="Kayla" style="width:100px;height:100px;"></td><td></td><td>Model pages,Technical report Co-editor</td></tr> 
+</table>
+</div>
+<div style="float:right; width:40%;">
 <h2 style='color: #0e365f;margin-top:50px'> Stats</h2>
 <p> Total number of commits: Needs to be updated</p>
 <p> Total number of issues: 16</p>
@@ -69,5 +75,5 @@ div.tab button.active {
 <a href='https://www.w3schools.com/css/'>CSS</a><br/>
 <a href='https://www.w3schools.com/js/'>Javascript</a>
 </div>
-</body>	
+</body> 
 </html>
