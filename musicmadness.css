@@ -1,7 +1,14 @@
 body {
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-color: #dadcff;
+	background-color: #ffffff;
+}
+
+#title{
+    text-align: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    padding-bottom: 5px;
+    margin: auto;
 }
 
 /* Style the tab */
@@ -28,8 +35,9 @@ div.tab button:hover {
 div.tab button.active {
     background-color: #ccc;
 }
+
 /* Style the tab content */
-.tabcontent {
+.tabcontent{
     display: none;
     padding: 6px 12px;
     border: 1px solid #ccc;
