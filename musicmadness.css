@@ -1,8 +1,7 @@
 body {
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-image: url("splash.png");
- 	opacity: 0.3;
+	background-color: #dadcff;
 }
 
 /* Style the tab */
