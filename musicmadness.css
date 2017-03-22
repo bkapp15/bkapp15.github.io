@@ -2,7 +2,7 @@ body {
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-image: url("splash.png");
- 	background-color: rgba(0, 0, 0, .2);
+ 	opacity: 0.3;
 }
 
 /* Style the tab */
