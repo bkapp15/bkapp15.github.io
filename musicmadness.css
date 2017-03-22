@@ -1,7 +1,7 @@
 body {
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-color: blue;
+	background-image: url("splash.png");
  	background-color: rgba(0, 0, 0, .2);
 }
 
