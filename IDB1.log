@@ -1,3 +1,46 @@
+commit 7fd3075d59dab4096dce467347817d9d2911c022
+Author: Blake <bak792@utexas.edu>
+Date:   Wed Mar 22 19:01:19 2017 -0500
+
+    Add .gitignore and Sitemap image files
+
+commit b9d659ec453bbe1af344e2a3969c6b0ff3437224
+Merge: 0d5821a 989bd4d
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Wed Mar 22 18:44:35 2017 -0500
+
+    Add log
+
+commit 0d5821a35b17b1d84a1e75633530afbe1890843c
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Wed Mar 22 18:42:03 2017 -0500
+
+    Add log
+
+commit 989bd4df770c668e2f95cad5ffc3abee384a4562
+Author: Kayla Mayberry <kaynmay@gmail.com>
+Date:   Wed Mar 22 18:40:11 2017 -0500
+
+    change commit number
+
+commit 58ace26af000cdb9617246823d6921193b24402e
+Author: Kayla Mayberry <kaynmay@gmail.com>
+Date:   Wed Mar 22 18:39:28 2017 -0500
+
+    add title
+
+commit f70f75ed20fc7838fbc2e5c5618a6700477d1d83
+Author: Kayla Mayberry <kaynmay@gmail.com>
+Date:   Wed Mar 22 18:39:08 2017 -0500
+
+    add title
+
+commit 464fe9c717dad48db77e9602b705e342f8398e03
+Author: Kayla Mayberry <kaynmay@gmail.com>
+Date:   Wed Mar 22 18:38:42 2017 -0500
+
+    add title
+
 commit e004708bb2b788f9365e5cb85a15728212686cbd
 Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
 Date:   Wed Mar 22 18:34:14 2017 -0500
