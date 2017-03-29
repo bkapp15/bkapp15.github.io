@@ -9,6 +9,8 @@ body {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     padding-bottom: 5px;
     margin: auto;
+    font-weight: bold;
+    line-height: 1.8;
 }
 
 /* Style the tab */
