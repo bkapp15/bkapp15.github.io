@@ -1,57 +1,68 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Music Madness!</title>
+	<title>About Us</title>
 	<link rel="stylesheet" type="text/css" href="musicmadness.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-	<style type="text/CSS">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" title="basic style" type="text/css" href = "./homepage.css" media="all" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style type="text/CSS">
 	td, th, tr, table {border: 1px black solid;}
 	table {
-		border-collapse: collapse;
-		width: 90%;
 		margin: auto;
+        width: 100%;
 	}
 	table, th, td {
 		text-align: center;
 	}
+    img {
+        margin: 5px;
+    }
 	</style>
 </head>
 <body>
-	<h1 id = "title">Music Madness</h1>
-	<div class="tab">
-		<button class="tablinks" onclick="location.href='http://musicmadness.me'">Home</button>
-		<button class="tablinks" onclick="location.href='http://musicmadness.me/about.html'">About</button>
-		<button class="tablinks" onclick="location.href='http://musicmadness.me/ModelPages/songs.html'">Songs</button>
-		<button class="tablinks" onclick="location.href='http://musicmadness.me/ModelPages/artists.html'">Artists</button>
-		<button class="tablinks" onclick="location.href='http://musicmadness.me/ModelPages/labels.html'">Labels</button>
-	</div>
-	<h1 style='font-size:35px;text-align:center;margin-bottom:0;'> About Us</h1>
-	<div style="float:left; width:60%;text-align:center">
-		<h2 style='color: #0e365f; margin-top:50px'> Team Name</h2>
-		<h1 style="font-size:30px"> Music Madness </h1>
-		<h2  style='color: #0e365f; margin-top:50px'> Team Members</h2>
-		<table class = "table-striped table-bordered">
-			<tr><th>Name</th><th>Image</th><th>Bio</th><th>Responsibilities</th></tr>
-			<tr><td>Allen Fernandes</td><td><img src="memberPics/Allen.jpg" alt="Allen" style="width:100px;height:100px;"></td><td>Masters in Information Studies</td><td>Splash, About, Navigation</td></tr>
-			<tr><td>Roger Craycroft</td><td><img src="memberPics/Roger.jpg" alt="Roger" style="width:100px;height:100px;"></td><td>Senior Year, B.S. Hydrogeology</td><td>Record label pages, Technical report Co-editor</td></tr>
-			<tr><td>Blake Kappel</td><td><img src="memberPics/Blake.jpg" alt="Blake" style="width:100px;height:100px;"></td><td>Senior Year, International Relations & Global Studies</td><td>Song Pages, Technical report Co-editor</td></tr>
-			<tr><td>Rebecca Bingham</td><td><img src="memberPics/Rebecca.jpg" alt="Rebecca" style="width:100px;height:100px;"></td><td>Senior Year, Management Information Systems</td><td>Artist Pages, Lead Tester</td></tr>
-			<tr><td>Kayla Mayberry</td><td><img src="memberPics/Kayla.jpg" alt="Kayla" style="width:100px;height:100px;"></td><td>Senior Year, Mathematics</td><td>Model pages,Technical report Co-editor</td></tr> 
-		</table><br>
-	</div>
-	<div style="float:right; width:40%;">
-		<h2 style='color: #0e365f;margin-top:50px'> Stats</h2>
-		<p> Total number of commits: 112</p>
-		<p> Total number of issues: 18</p>
-		<a href='https://github.com/bkapp15/bkapp15.github.io/issues'>GitHub Issue Tracker</a><br/>
-		<a href='https://github.com/bkapp15/bkapp15.github.io'>GitHub Repo</a><br/>
-		<a href='https://github.com/bkapp15/bkapp15.github.io/wiki'>GitHub Wiki</a>
-		<h2 style='color: #0e365f;margin-top:50px'> Tools</h2>
-		<a href='https://www.w3schools.com/html/'>HTML</a><br/>
-		<a href='https://www.w3schools.com/css/'>CSS</a><br/>
-		<a href='https://www.w3schools.com/js/'>Javascript</a><br/>
-		<a href='https://www.github.com/'>GitHub</a><br/>
-		<a href='https://www.slack.com/'>Slack</a>
-	</div>
+    <ul class="nav nav-pills navbar-inverse">
+        <li><a href="http://musicmadness.me">Home</a></li>
+        <li class="active"><a href="http://musicmadness.me/about.html">About</a></li>
+        <li><a href="http://musicmadness.me/ModelPages/songs.html">Songs</a></li>
+        <li><a href="http://musicmadness.me/ModelPages/artists.html">Artists</a></li>
+        <li><a href="http://musicmadness.me/ModelPages/labels.html">Labels</a></li>
+    </ul>
+    <div class="container">
+        <h1 style="text-align:center"><strong>About Us</strong></h1>
+        <h3 style='margin-top:20px'> Team Name: <strong>Music Madness!</strong></h3>
+        <h3 style='margin-top:20px'> Team Members</h3>
+        <table class = "table-striped table-bordered">
+            <tr><th>Name</th><th>Image</th><th>Bio</th><th>Responsibilities</th></tr>
+            <tr><td>Allen Fernandes</td><td><img src="memberPics/Allen.jpg" alt="Allen" style="width:100px;height:100px;"></td><td>Masters in Information Studies</td><td>Splash, About, Navigation</td></tr>
+            <tr><td>Roger Craycroft</td><td><img src="memberPics/Roger.jpg" alt="Roger" style="width:100px;height:100px;"></td><td>Senior Year, B.S. Hydrogeology</td><td>Record label pages, Technical report Co-editor</td></tr>
+            <tr><td>Blake Kappel</td><td><img src="memberPics/Blake.jpg" alt="Blake" style="width:100px;height:100px;"></td><td>Senior Year, International Relations & Global Studies</td><td>Song Pages, Technical report Co-editor</td></tr>
+            <tr><td>Rebecca Bingham</td><td><img src="memberPics/Rebecca.jpg" alt="Rebecca" style="width:100px;height:100px;"></td><td>Senior Year, Management Information Systems</td><td>Artist Pages, Lead Tester</td></tr>
+            <tr><td>Kayla Mayberry</td><td><img src="memberPics/Kayla.jpg" alt="Kayla" style="width:100px;height:100px;"></td><td>Senior Year, Mathematics</td><td>Model pages,Technical report Co-editor</td></tr> 
+        </table><br>
+        <div style="float:left; width:50%;text-align:center; margin-bottom:20px">
+            <table class = "table-striped table-bordered">
+                <tr><th colspan="2" style="font-size:18px">Stats</th></tr>
+                <tr><td>Total number of commits:</td><td>112</td></tr>
+                <tr><td>Total number of issues:</td><td>18</td></tr>
+                <tr><td>GitHub Issue Tracker</td><td><a href='https://github.com/bkapp15/bkapp15.github.io/issues'>GitHub Issue Tracker</a></td></tr>
+                <tr><td>GitHub Repo</td><td><a href='https://github.com/bkapp15/bkapp15.github.io'>GitHub Repo</a></td></tr>
+                <tr><td>GitHub Wiki</td><td><a href='https://github.com/bkapp15/bkapp15.github.io/wiki'>GitHub Wiki</a></td></tr> 
+            </table>
+        </div>
+        <div style="float:right; width:45%;text-align:center; margin-bottom:20px">
+            <table class = "table-striped table-bordered">
+                <tr><th colspan="2" style="font-size:18px">Tools</th></tr>
+                <tr><td><a href='https://www.w3schools.com/html/'>HTML</a></td></tr>
+                <tr><td><a href='https://www.w3schools.com/css/'>CSS</a></td></tr>
+                <tr><td><a href='https://www.w3schools.com/js/'>Javascript</a></td></tr>
+                <tr><td><a href='https://www.github.com/'>GitHub</a></td></tr>
+                <tr><td><a href='https://www.slack.com/'>Slack</a></td></tr> 
+            </table>
+        </div>
+    </div>
 </body> 
 </html>
