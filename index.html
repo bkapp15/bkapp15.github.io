@@ -16,23 +16,48 @@ img{
 </style>
 </head>
 <body>
+    <ul class="nav nav-pills navbar-inverse">
+        <li class="active"><a href="http://musicmadness.me">Home</a></li>
+        <li><a href="http://musicmadness.me/about.html">About</a></li>
+        <li><a href="http://musicmadness.me/ModelPages/songs.html">Songs</a></li>
+        <li><a href="http://musicmadness.me/ModelPages/artists.html">Artists</a></li>
+        <li><a href="http://musicmadness.me/ModelPages/labels.html">Labels</a></li>
+    </ul>
     <div class="jumbotron">
-      <div class="container">
-        <h1 id = "title">Music Madness!</h1>
-        <p>This is a place where you can explore the world of music! Follow the links between pages to learn about the details of and interconnections between artists, their songs, and the record labels they're signed under.
-      </div>
+        <div class="container">
+            <h1 id = "title">Music Madness!</h1>
+            <p>This is a place where you can explore the world of music! Follow the links between pages to learn about the details of and interconnections between artists, their songs, and the record labels they're signed under.</p>
+        </div>
+        <div id="musicMadnessCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#musicMadnessCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#musicMadnessCarousel" data-slide-to="1"></li>
+                <li data-target="#musicMadnessCarousel" data-slide-to="2"></li>
+                <li data-target="#musicMadnessCarousel" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img class="d-block img-fluid" src="home.jpg" alt="First slide">
+                </div>
+                <div class="item">
+                    <img class="d-block img-fluid" src="artists.jpg" alt="Second slide">
+                </div>
+                <div class="item">
+                    <img class="d-block img-fluid" src="songs.jpg" alt="Third slide">
+                </div>
+                <div class="item">
+                    <img class="d-block img-fluid" src="labels.jpg" alt="Fourth slide">
+                </div>
+            </div>
+            <a class="left carousel-control" href="#musicMadnessCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#musicMadnessCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
     </div>
-
-<div class="tab">
-	<button class="tablinks" onclick="location.href='http://musicmadness.me'">Home</button>
-	<button class="tablinks" onclick="location.href='http://musicmadness.me/about.html'">About</button>
-	<button class="tablinks" onclick="location.href='http://musicmadness.me/ModelPages/songs.html'">Songs</button>
-	<button class="tablinks" onclick="location.href='http://musicmadness.me/ModelPages/artists.html'">Artists</button>
-	<button class="tablinks" onclick="location.href='http://musicmadness.me/ModelPages/labels.html'">Labels</button>
-</div>
-
-<div class = "img">
-    <img src="splash.png">
-</div>
 </body>	
 </html>
