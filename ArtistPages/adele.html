@@ -3,8 +3,15 @@
 
 <head>
 	<title>Adele</title>
-	<link rel="stylesheet" type="text/css" href="../musicmadness.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+		<link rel="stylesheet" title="basic style" type="text/css" href = "./homepage.css" media="all" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="../musicmadness.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<style type="text/css">
 		h1,h3,p, #media{
 		text-align: center;}
@@ -16,14 +23,13 @@
 </head>
 
 <body>
-	<h1 id = "title">Music Madness</h1>
-<div class="tab">
-	<button class="tablinks" onclick="location.href='http://musicmadness.me'">Home</button>
-	<button class="tablinks" onclick="location.href='http://musicmadness.me/about.html'">About</button>
-	<button class="tablinks" onclick="location.href='http://musicmadness.me/ModelPages/songs.html'">Songs</button>
-	<button class="tablinks" onclick="location.href='http://musicmadness.me/ModelPages/artists.html'">Artists</button>
-	<button class="tablinks" onclick="location.href='http://musicmadness.me/ModelPages/labels.html'">Labels</button>
-</div>
+<ul class="nav nav-pills navbar-inverse">
+        	<li><a href="http://musicmadness.me">Music Madness</a></li>
+        	<li><a href="http://musicmadness.me/about.html">About</a></li>
+        	<li><a href="http://musicmadness.me/ModelPages/songs.html">Songs</a></li>
+        	<li><a href="http://musicmadness.me/ModelPages/artists.html">Artists</a></li>
+        	<li class="active"><a href="http://musicmadness.me/ModelPages/labels.html">Labels</a></li>
+    	</ul>
 
 	<h1>
 		Adele
