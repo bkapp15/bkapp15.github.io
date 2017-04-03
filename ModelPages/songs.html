@@ -5,6 +5,15 @@
 		</title>
 		<link rel="stylesheet" type="text/css" href="../musicmadness.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script type="text/javascript" src="jquery-latest.js"></script> 
+		<script type="text/javascript" src="jquery.tablesorter.js"></script> 
+		<script type="text/javascript">
+		$(document).ready(function() 
+		    { 
+		        $("#myTable").tablesorter(); 
+		    } 
+		);
+		</script>
 		<style type="text/CSS">
 		/* Style table */
 		table {
@@ -22,6 +31,10 @@
 		img {
 			width: 150px;
 		}
+		.pagination{
+			margin: auto;
+			padding: 5px;
+		}
 		h1{
 			text-align: center;
     		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -31,6 +44,13 @@
 		}
 		li a {
     		color: white;
+    	}
+    	#updown{
+    		width: 20px;
+    		float: right;
+    	}
+    	#length{
+    		width: 80px;
     	}
 		</style>
 	</head>
@@ -43,135 +63,139 @@
 			<li><a href="http://musicmadness.me/ModelPages/labels.html">Labels</a></li>
 		</ul>
 		<h1><strong>Songs</strong></h1>
-		<table class = "table-striped table-bordered">
-			<tr>
-				<th>Cover</th>
-				<th>Title</th>
-				<th>Album</th>
-				<th>Artist</th>
-				<th>Release</th>
-				<th>Length</th>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/en/5/53/Beyonce_-_Lemonade_(Official_Album_Cover).png" alt = "Lemonade Cover" ></td>
-				<td><a href="/SongPages/sorry_beyonce.html">Sorry</a></td>
-				<td>Lemonade</td>
-				<td>Beyonce</td>
-				<td>May 3, 2016</td>
-				<td>3:52</td>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/en/7/7d/Blurryface_by_Twenty_One_Pilots.png" alt = "Blurryface Cover" ></td>
-				<td><a href="/SongPages/StressedOut_21Pilots.html">Stressed Out</a></td>
-				<td>Blurryface</td>
-				<td>Twenty One Pilots</td>
-				<td>November 10, 2015</td>
-				<td>3:22</td>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/en/3/32/Rihanna_-_Anti.png" alt = "Anti Cover" ></td>
-				<td><a href="/SongPages/work_rihanna.html">Work</a></td>
-				<td>Anti</td>
-				<td>Rihanna</td>
-				<td>January 27, 2016</td>
-				<td>3:39</td>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/en/2/22/Collage%2C_album_cover.jpg" alt = "Collage Cover" ></td>
-				<td><a href="/SongPages/closer_chainsmokers.html">Closer</a></td>
-				<td>Collage</td>
-				<td>The Chainsmokers</td>
-				<td>July 29, 2016</td>
-				<td>4:04</td>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Divide_cover.png/220px-Divide_cover.png" alt = "Divide Cover" ></td>
-				<td><a href="/SongPages/shapeofyou_edsheeran.html">Shape of You</a></td>
-				<td>Divide</td>
-				<td>Ed Sheeran</td>
-				<td>January 6, 2017</td>
-				<td>3:53</td>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Bruno_Mars_-_24K_Magic_%28Official_Album_Cover%29.png/220px-Bruno_Mars_-_24K_Magic_%28Official_Album_Cover%29.png" alt = "24K Magic Cover" ></td>
-				<td><a href="/SongPages/24kmagic_brunomars.html">24K Magic</a></td>
-				<td>24K Magic</td>
-				<td>Bruno Mars</td>
-				<td>October 7, 2016</td>
-				<td>3:46</td>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Ariana_Grande_-_Dangerous_Woman_%28Official_Album_Cover%29.png/220px-Ariana_Grande_-_Dangerous_Woman_%28Official_Album_Cover%29.png" alt = "Dangerous Woman Cover" ></td>
-				<td><a href="/SongPages/sidetoside_arianagrande.html">Side to Side</a></td>
-				<td>Dangerous Woman</td>
-				<td>Ariana Grande</td>
-				<td>August 30, 2016</td>
-				<td>3:46</td>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Thisisacting_albumcover.png/220px-Thisisacting_albumcover.png" alt = "This Is Acting Cover" ></td>
-				<td><a href="/SongPages/cheapthrills_sia.html">Cheap Thrills</a></td>
-				<td>This Is Acting</td>
-				<td>Sia</td>
-				<td>February 11, 2016</td>
-				<td>3:44</td>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Suicide_Squad_album_cover.jpg/220px-Suicide_Squad_album_cover.jpg" alt = "Suicide Squad Cover" ></td>
-				<td><a href="/SongPages/heathens_21pilots.html">Heathens</a></td>
-				<td>Suicide Squad: The Album</td>
-				<td>Twenty One Pilots</td>
-				<td>June 16, 2016</td>
-				<td>3:15</td>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Adele_-_25_%28Official_Album_Cover%29.png/220px-Adele_-_25_%28Official_Album_Cover%29.png" alt = "25 Cover" ></td>
-				<td><a href="/SongPages/hello_adele.html">Hello</a></td>
-				<td>25</td>
-				<td>Adele</td>
-				<td>October 23, 2015</td>
-				<td>4:55</td>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/7-27_%28Deluxe_Edition%29_%28Official_Album_Cover%29_by_Fifth_Harmony.png/220px-7-27_%28Deluxe_Edition%29_%28Official_Album_Cover%29_by_Fifth_Harmony.png" alt = "7/27 Cover" ></td>
-				<td><a href="/SongPages/workfromhome_fifthharmony.html">Work from Home</a></td>
-				<td>7/27</td>
-				<td>Fifth Harmony</td>
-				<td>February 26, 2016</td>
-				<td>3:34</td>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Unapologetic_-_Rihanna.png/220px-Unapologetic_-_Rihanna.png" alt = "Unapologetic Cover" ></td>
-				<td><a href="/SongPages/stay_rihanna.html">Stay</a></td>
-				<td>Unapologetic</td>
-				<td>Rihanna</td>
-				<td>January 7, 2013</td>
-				<td>3:34</td>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/Hozier_album.jpg/220px-Hozier_album.jpg" alt = "Hozier Cover" ></td>
-				<td><a href="/SongPages/takemetochurch_hozier.html">Take Me to Church</a></td>
-				<td>Hozier</td>
-				<td>Hozier</td>
-				<td>September 13, 2013</td>
-				<td>4:02</td>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Taylor_Swift_-_1989.png/220px-Taylor_Swift_-_1989.png" alt = "1989 Cover" ></td>
-				<td><a href="/SongPages/badblood_taylorswift.html">Bad Blood</a></td>
-				<td>1989</td>
-				<td>Taylor Swift</td>
-				<td>May 17, 2015</td>
-				<td>3:19</td>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Beyonc%C3%A9_-_Beyonc%C3%A9.svg/220px-Beyonc%C3%A9_-_Beyonc%C3%A9.svg.png" alt = "Beyonce Cover" ></td>
-				<td><a href="/SongPages/xo_beyonce.html">XO</a></td>
-				<td>Beyonce</td>
-				<td>Beyonce</td>
-				<td>December 16, 2013</td>
-				<td>3:36</td>
-			</tr>
+		<table id="myTable" class = "tablesorter table-striped table-bordered">
+			<thead>
+				<tr>
+					<th class="header">Cover</th>
+					<th>Title<img id="updown" src="updown.png"></th>
+					<th>Album<img id="updown" src="updown.png"></th>
+					<th>Artist<img id="updown" src="updown.png"></th>
+					<th>Release<img id="updown" src="updown.png"></th>
+					<th id="length">Length<img id="updown" src="updown.png"></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/en/5/53/Beyonce_-_Lemonade_(Official_Album_Cover).png" alt = "Lemonade Cover" ></td>
+					<td><a href="/SongPages/sorry_beyonce.html">Sorry</a></td>
+					<td>Lemonade</td>
+					<td>Beyonce</td>
+					<td>May 3, 2016</td>
+					<td>3:52</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/en/7/7d/Blurryface_by_Twenty_One_Pilots.png" alt = "Blurryface Cover" ></td>
+					<td><a href="/SongPages/StressedOut_21Pilots.html">Stressed Out</a></td>
+					<td>Blurryface</td>
+					<td>Twenty One Pilots</td>
+					<td>November 10, 2015</td>
+					<td>3:22</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/en/3/32/Rihanna_-_Anti.png" alt = "Anti Cover" ></td>
+					<td><a href="/SongPages/work_rihanna.html">Work</a></td>
+					<td>Anti</td>
+					<td>Rihanna</td>
+					<td>January 27, 2016</td>
+					<td>3:39</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/en/2/22/Collage%2C_album_cover.jpg" alt = "Collage Cover" ></td>
+					<td><a href="/SongPages/closer_chainsmokers.html">Closer</a></td>
+					<td>Collage</td>
+					<td>The Chainsmokers</td>
+					<td>July 29, 2016</td>
+					<td>4:04</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/4/45/Divide_cover.png/220px-Divide_cover.png" alt = "Divide Cover" ></td>
+					<td><a href="/SongPages/shapeofyou_edsheeran.html">Shape of You</a></td>
+					<td>Divide</td>
+					<td>Ed Sheeran</td>
+					<td>January 6, 2017</td>
+					<td>3:53</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Bruno_Mars_-_24K_Magic_%28Official_Album_Cover%29.png/220px-Bruno_Mars_-_24K_Magic_%28Official_Album_Cover%29.png" alt = "24K Magic Cover" ></td>
+					<td><a href="/SongPages/24kmagic_brunomars.html">24K Magic</a></td>
+					<td>24K Magic</td>
+					<td>Bruno Mars</td>
+					<td>October 7, 2016</td>
+					<td>3:46</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Ariana_Grande_-_Dangerous_Woman_%28Official_Album_Cover%29.png/220px-Ariana_Grande_-_Dangerous_Woman_%28Official_Album_Cover%29.png" alt = "Dangerous Woman Cover" ></td>
+					<td><a href="/SongPages/sidetoside_arianagrande.html">Side to Side</a></td>
+					<td>Dangerous Woman</td>
+					<td>Ariana Grande</td>
+					<td>August 30, 2016</td>
+					<td>3:46</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Thisisacting_albumcover.png/220px-Thisisacting_albumcover.png" alt = "This Is Acting Cover" ></td>
+					<td><a href="/SongPages/cheapthrills_sia.html">Cheap Thrills</a></td>
+					<td>This Is Acting</td>
+					<td>Sia</td>
+					<td>February 11, 2016</td>
+					<td>3:44</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Suicide_Squad_album_cover.jpg/220px-Suicide_Squad_album_cover.jpg" alt = "Suicide Squad Cover" ></td>
+					<td><a href="/SongPages/heathens_21pilots.html">Heathens</a></td>
+					<td>Suicide Squad: The Album</td>
+					<td>Twenty One Pilots</td>
+					<td>June 16, 2016</td>
+					<td>3:15</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Adele_-_25_%28Official_Album_Cover%29.png/220px-Adele_-_25_%28Official_Album_Cover%29.png" alt = "25 Cover" ></td>
+					<td><a href="/SongPages/hello_adele.html">Hello</a></td>
+					<td>25</td>
+					<td>Adele</td>
+					<td>October 23, 2015</td>
+					<td>4:55</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/e/ea/7-27_%28Deluxe_Edition%29_%28Official_Album_Cover%29_by_Fifth_Harmony.png/220px-7-27_%28Deluxe_Edition%29_%28Official_Album_Cover%29_by_Fifth_Harmony.png" alt = "7/27 Cover" ></td>
+					<td><a href="/SongPages/workfromhome_fifthharmony.html">Work from Home</a></td>
+					<td>7/27</td>
+					<td>Fifth Harmony</td>
+					<td>February 26, 2016</td>
+					<td>3:34</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/9/9b/Unapologetic_-_Rihanna.png/220px-Unapologetic_-_Rihanna.png" alt = "Unapologetic Cover" ></td>
+					<td><a href="/SongPages/stay_rihanna.html">Stay</a></td>
+					<td>Unapologetic</td>
+					<td>Rihanna</td>
+					<td>January 7, 2013</td>
+					<td>3:34</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/Hozier_album.jpg/220px-Hozier_album.jpg" alt = "Hozier Cover" ></td>
+					<td><a href="/SongPages/takemetochurch_hozier.html">Take Me to Church</a></td>
+					<td>Hozier</td>
+					<td>Hozier</td>
+					<td>September 13, 2013</td>
+					<td>4:02</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/f/f6/Taylor_Swift_-_1989.png/220px-Taylor_Swift_-_1989.png" alt = "1989 Cover" ></td>
+					<td><a href="/SongPages/badblood_taylorswift.html">Bad Blood</a></td>
+					<td>1989</td>
+					<td>Taylor Swift</td>
+					<td>May 17, 2015</td>
+					<td>3:19</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Beyonc%C3%A9_-_Beyonc%C3%A9.svg/220px-Beyonc%C3%A9_-_Beyonc%C3%A9.svg.png" alt = "Beyonce Cover" ></td>
+					<td><a href="/SongPages/xo_beyonce.html">XO</a></td>
+					<td>Beyonce</td>
+					<td>Beyonce</td>
+					<td>December 16, 2013</td>
+					<td>3:36</td>
+				</tr>
+			</tbody>
 		</table>
 	</body>
 </html>

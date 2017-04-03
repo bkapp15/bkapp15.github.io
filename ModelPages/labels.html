@@ -5,6 +5,15 @@
 		</title>
 		<link rel="stylesheet" type="text/css" href="../musicmadness.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script type="text/javascript" src="jquery-latest.js"></script> 
+		<script type="text/javascript" src="jquery.tablesorter.js"></script> 
+		<script type="text/javascript">
+		$(document).ready(function() 
+		    { 
+		        $("#myTable").tablesorter(); 
+		    } 
+		);
+		</script>
 		<style type="text/CSS">
 		/* Style table */
 		table {
@@ -32,6 +41,10 @@
 		li a {
     		color: white;
     	}
+    	#updown{
+    		width: 20px;
+    		float: right;
+    	}
 		</style>
 	</head>
 	<body>
@@ -43,98 +56,102 @@
 			<li class="active"><a href="http://musicmadness.me/ModelPages/labels.html">Labels</a></li>
 		</ul>
 		<h1><strong>Labels</strong></h1>
-		<table class = "table-striped table-bordered">
-			<tr>
-				<th>Logo</th>
-				<th>Name</th>
-				<th>Founded</th>
-				<th>CEO</th>
-				<th>Location</th>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Columbia_Records_logo.svg/1200px-Columbia_Records_logo.svg.png" alt = "Columbia Records Logo" ></td>
-				<td><a href="/LabelPages/columbia.html">Columbia Records</a></td>
-				<td>1888</td>
-				<td>Rob Stringer</td>
-				<td><a href="https://www.google.com/maps/place/New+York,+NY/@40.705311,-74.258188,10z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127837!4d-74.0059413">New York City, NY</td>
-			</tr>
-			<tr>
-				<td><img src = "http://vignette2.wikia.nocookie.net/lyricwiki/images/d/da/Fueled_By_Ramen.jpg/revision/latest?cb=20110710185444" alt = "Fueled By Ramen Logo" ></td>
-				<td><a href="/LabelPages/ramen.html">Fueled By Ramen</a></td>
-				<td>1996</td>
-				<td>Mike Easterlin</td>
-				<td><a href="https://www.google.com/maps/place/New+York,+NY/@40.705311,-74.258188,10z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127837!4d-74.0059413">New York City, NY</td>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Roc_Nation_Logo.svg/2000px-Roc_Nation_Logo.svg.png" alt = "Roc Nation Logo" ></td>
-				<td><a href="/LabelPages/roc_nation.html">Roc Nation</a></td>
-				<td>2008</td>
-				<td>Jay Brown</td>
-				<td><a href="https://www.google.com/maps/place/New+York,+NY/@40.705311,-74.258188,10z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127837!4d-74.0059413">New York City, NY</td>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/Atlantic_Records_fan_logo.svg/187px-Atlantic_Records_fan_logo.svg.png " alt = "Atlantic Logo" ></td>
-				<td><a href="/LabelPages/atlantic.html">Atlantic Records</a></td>
-				<td>1947</td>
-				<td>Craig Kallman</td>
-				<td><a href="https://www.google.com/maps/place/New+York,+NY/@40.705311,-74.258188,10z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127837!4d-74.0059413">New York City, NY</td>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/commons/3/35/Republic_records_logo.png " alt = "Republic Logo" ></td>
-				<td><a href="/LabelPages/republic.html">Republic Records</a></td>
-				<td>1995</td>
-				<td>Monte Lipman</td>
-				<td><a href="https://www.google.com/maps/place/New+York,+NY/@40.705311,-74.258188,10z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127837!4d-74.0059413">New York City, NY</td>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/RCA_Records_%28logo%29.svg/180px-RCA_Records_%28logo%29.svg.png" alt = "RCA Logo" ></td>
-				<td><a href="/LabelPages/rca.html">RCA Records</a></td>
-				<td>1901</td>
-				<td>Peter Edge</td>
-				<td><a href="https://www.google.com/maps/place/New+York,+NY/@40.705311,-74.258188,10z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127837!4d-74.0059413">New York City, NY</td>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/en/6/65/Warner_Bros._Records_Logo_2002.png" alt = "Warner Bros Logo" ></td>
-				<td><a href="/LabelPages/warner_bros.html">Warner Bros. Records</a></td>
-				<td>1958</td>
-				<td>Cameron Strang</td>
-				<td><a href="https://www.google.com/maps/place/Burbank,+CA/@34.1821326,-118.3952509,12z/data=!3m1!4b1!4m5!3m4!1s0x80c295152818c595:0x307791af901f8ad4!8m2!3d34.1808392!4d-118.3089661">Burbank, CA</td>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/XL_Recordings_Logo.svg/200px-XL_Recordings_Logo.svg.png" alt = "XL Logo" ></td>
-				<td><a href="/LabelPages/xl.html">XL Recordings</a></td>
-				<td>1989</td>
-				<td>Richard Russell</td>
-				<td><a href="https://www.google.com/maps/place/London,+UK/@51.5287352,-0.381793,10z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5073509!4d-0.1277583">London, England</td>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Epic_Records.svg/160px-Epic_Records.svg.png" alt = "Epic Logo" ></td>
-				<td><a href="/LabelPages/epic.html">Epic Records</a></td>
-				<td>1953</td>
-				<td>L.A. Reid</td>
-				<td><a href="https://www.google.com/maps/place/Tokyo,+Japan/@35.6735763,139.4302063,10z/data=!3m1!4b1!4m5!3m4!1s0x605d1b87f02e57e7:0x2e01618b22571b89!8m2!3d35.6894875!4d139.6917064">Tokyo, Japan</td>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/DefJamRecordings.svg/115px-DefJamRecordings.svg.png" alt = "Def Jam Logo" ></td>
-				<td><a href="/LabelPages/def_jam.html">Def Jam Recordings</a></td>
-				<td>1983</td>
-				<td>Steve Bartels</td>
-				<td><a href="https://www.google.com/maps/place/New+York,+NY/@40.705311,-74.258188,10z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127837!4d-74.0059413">New York City, NY</td>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Island-logo.gif/180px-Island-logo.gif" alt = "Island Logo" ></td>
-				<td><a href="/LabelPages/island.html">Island Records</a></td>
-				<td>1959</td>
-				<td>David Massey</td>
-				<td><a href="https://www.google.com/maps/place/New+York,+NY/@40.705311,-74.258188,10z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127837!4d-74.0059413">New York City, NY</td>
-			</tr>
-			<tr>
-				<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Bm_records.jpg/200px-Bm_records.jpg" alt = "Big Machine Logo" ></td>
-				<td><a href="/LabelPages/big_machine.html">Big Machine Records</a></td>
-				<td>2005</td>
-				<td>Scott Borchetta</td>
-				<td><a href="https://www.google.com/maps/place/Nashville,+TN/@36.1868683,-87.0654269,10z/data=!3m1!4b1!4m5!3m4!1s0x8864ec3213eb903d:0x7d3fb9d0a1e9daa0!8m2!3d36.1626638!4d-86.7816016">Nashville, TN</td>
-			</tr>
+		<table id="myTable" class = "tablesorter table-striped table-bordered">
+			<thead>
+				<tr>
+					<th>Logo</th>
+					<th>Name<img id="updown" src="updown.png"></th>
+					<th>Founded<img id="updown" src="updown.png"></th>
+					<th>CEO<img id="updown" src="updown.png"></th>
+					<th>Location<img id="updown" src="updown.png"></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Columbia_Records_logo.svg/1200px-Columbia_Records_logo.svg.png" alt = "Columbia Records Logo" ></td>
+					<td><a href="/LabelPages/columbia.html">Columbia Records</a></td>
+					<td>1888</td>
+					<td>Rob Stringer</td>
+					<td><a href="https://www.google.com/maps/place/New+York,+NY/@40.705311,-74.258188,10z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127837!4d-74.0059413">New York City, NY</td>
+				</tr>
+				<tr>
+					<td><img src = "http://vignette2.wikia.nocookie.net/lyricwiki/images/d/da/Fueled_By_Ramen.jpg/revision/latest?cb=20110710185444" alt = "Fueled By Ramen Logo" ></td>
+					<td><a href="/LabelPages/ramen.html">Fueled By Ramen</a></td>
+					<td>1996</td>
+					<td>Mike Easterlin</td>
+					<td><a href="https://www.google.com/maps/place/New+York,+NY/@40.705311,-74.258188,10z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127837!4d-74.0059413">New York City, NY</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Roc_Nation_Logo.svg/2000px-Roc_Nation_Logo.svg.png" alt = "Roc Nation Logo" ></td>
+					<td><a href="/LabelPages/roc_nation.html">Roc Nation</a></td>
+					<td>2008</td>
+					<td>Jay Brown</td>
+					<td><a href="https://www.google.com/maps/place/New+York,+NY/@40.705311,-74.258188,10z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127837!4d-74.0059413">New York City, NY</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/Atlantic_Records_fan_logo.svg/187px-Atlantic_Records_fan_logo.svg.png " alt = "Atlantic Logo" ></td>
+					<td><a href="/LabelPages/atlantic.html">Atlantic Records</a></td>
+					<td>1947</td>
+					<td>Craig Kallman</td>
+					<td><a href="https://www.google.com/maps/place/New+York,+NY/@40.705311,-74.258188,10z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127837!4d-74.0059413">New York City, NY</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/commons/3/35/Republic_records_logo.png " alt = "Republic Logo" ></td>
+					<td><a href="/LabelPages/republic.html">Republic Records</a></td>
+					<td>1995</td>
+					<td>Monte Lipman</td>
+					<td><a href="https://www.google.com/maps/place/New+York,+NY/@40.705311,-74.258188,10z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127837!4d-74.0059413">New York City, NY</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/RCA_Records_%28logo%29.svg/180px-RCA_Records_%28logo%29.svg.png" alt = "RCA Logo" ></td>
+					<td><a href="/LabelPages/rca.html">RCA Records</a></td>
+					<td>1901</td>
+					<td>Peter Edge</td>
+					<td><a href="https://www.google.com/maps/place/New+York,+NY/@40.705311,-74.258188,10z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127837!4d-74.0059413">New York City, NY</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/en/6/65/Warner_Bros._Records_Logo_2002.png" alt = "Warner Bros Logo" ></td>
+					<td><a href="/LabelPages/warner_bros.html">Warner Bros. Records</a></td>
+					<td>1958</td>
+					<td>Cameron Strang</td>
+					<td><a href="https://www.google.com/maps/place/Burbank,+CA/@34.1821326,-118.3952509,12z/data=!3m1!4b1!4m5!3m4!1s0x80c295152818c595:0x307791af901f8ad4!8m2!3d34.1808392!4d-118.3089661">Burbank, CA</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/XL_Recordings_Logo.svg/200px-XL_Recordings_Logo.svg.png" alt = "XL Logo" ></td>
+					<td><a href="/LabelPages/xl.html">XL Recordings</a></td>
+					<td>1989</td>
+					<td>Richard Russell</td>
+					<td><a href="https://www.google.com/maps/place/London,+UK/@51.5287352,-0.381793,10z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5073509!4d-0.1277583">London, England</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Epic_Records.svg/160px-Epic_Records.svg.png" alt = "Epic Logo" ></td>
+					<td><a href="/LabelPages/epic.html">Epic Records</a></td>
+					<td>1953</td>
+					<td>L.A. Reid</td>
+					<td><a href="https://www.google.com/maps/place/Tokyo,+Japan/@35.6735763,139.4302063,10z/data=!3m1!4b1!4m5!3m4!1s0x605d1b87f02e57e7:0x2e01618b22571b89!8m2!3d35.6894875!4d139.6917064">Tokyo, Japan</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/DefJamRecordings.svg/115px-DefJamRecordings.svg.png" alt = "Def Jam Logo" ></td>
+					<td><a href="/LabelPages/def_jam.html">Def Jam Recordings</a></td>
+					<td>1983</td>
+					<td>Steve Bartels</td>
+					<td><a href="https://www.google.com/maps/place/New+York,+NY/@40.705311,-74.258188,10z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127837!4d-74.0059413">New York City, NY</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Island-logo.gif/180px-Island-logo.gif" alt = "Island Logo" ></td>
+					<td><a href="/LabelPages/island.html">Island Records</a></td>
+					<td>1959</td>
+					<td>David Massey</td>
+					<td><a href="https://www.google.com/maps/place/New+York,+NY/@40.705311,-74.258188,10z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127837!4d-74.0059413">New York City, NY</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Bm_records.jpg/200px-Bm_records.jpg" alt = "Big Machine Logo" ></td>
+					<td><a href="/LabelPages/big_machine.html">Big Machine Records</a></td>
+					<td>2005</td>
+					<td>Scott Borchetta</td>
+					<td><a href="https://www.google.com/maps/place/Nashville,+TN/@36.1868683,-87.0654269,10z/data=!3m1!4b1!4m5!3m4!1s0x8864ec3213eb903d:0x7d3fb9d0a1e9daa0!8m2!3d36.1626638!4d-86.7816016">Nashville, TN</td>
+				</tr>
+			</tbody>
 		</table>
 	</body>
 </html>
