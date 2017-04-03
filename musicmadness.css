@@ -77,3 +77,8 @@ div.tab button.active {
     background: #e95950;
     color: white;
 }
+
+/* making the nav bar text white */
+li a {
+	color: white;
+}
