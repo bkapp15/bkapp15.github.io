@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 
-	<head>
-		<title>Beyonce</title>
+<head>
+	<title>Beyonce</title>
 	<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
@@ -12,15 +12,41 @@
 
 		<link rel="stylesheet" type="text/css" href="../musicmadness.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
 	<style type="text/css">
-		h1,h3,p, #media{
+		h1,h2,h3,p, #media{
 		text-align: center;}
-	img{
-		display: block;
-		margin: auto;
-	}
+
+	img, .featurette-heading {
+				padding-top: 2em;
+			}
+	table {
+				float: left;
+			}
+
+			#table1 {
+				margin: auto;
+				margin-left: 6em;
+				margin-top: 5px;
+				padding: 20px;
+				width: 40%;
+			}
+
+			#table2 {
+				margin: auto;
+				margin-left: 3em;
+				margin-top: 5px;
+				padding: 20px;
+				width: 20%;
+			}
+
+			th, td {
+				text-align: center;
+				padding: 10px;
+			}
+
 	</style>
-	</head>
+</head>
 
 <body>
 	<ul class="nav nav-pills navbar-inverse">
@@ -30,36 +56,43 @@
         	<li class="active"><a href="http://musicmadness.me/ModelPages/artists.html">Artists</a></li>
         	<li><a href="http://musicmadness.me/ModelPages/labels.html">Labels</a></li>
     	</ul>
-</div>
-	<h1>
-		Beyonce
-	</h1>
-	
-	<img src = "https://static1.squarespace.com/static/556e3585e4b09348a15761ab/t/57d7771d29687fe18964ab15/1473738535702/Beyonce-Complex-beyonce-34038963-1280-960.jpg" alt = "HTML5 Icon" style = "width: 300px; height: 250px;" >
-	
-	<h3> Origin </h3> 
-	<p> Houston, TX </p>
-	
-	<h3> Debut </h3>
-	<p> 1997 </p>
 
-	<h3> Genre </h3>
-	<p> R&B, Pop </p>
+    <div class="row featurette">
+        	<div class="col-md-7 col-md-push-4">
+         		<h1 class="featurette-heading">Beyonce</h1>
+          		<p class="lead">American singer, songwriter, and actress born and raised in Houston, Texas. She got her start as lead singer of girl-group Destiny’s Child and then went on to have a successful solo career.</p>
+          		<h3>Social Media Accounts</h3>
+				<div id="media">
+					<a href="http://www.facebook.com/beyonce/" class="fa fa-facebook"></a>
+					<a href="http://twitter.com/beyonce" class="fa fa-twitter"></a>
+					<a href="http://www.instagram.com/beyonce/" class ="fa fa-instagram"></a>
+				</div>
+        	</div>
+		<div class="col-md-5 col-md-pull-7">
+        		<img class="featurette-image img-responsive center-block" src="https://static1.squarespace.com/static/556e3585e4b09348a15761ab/t/57d7771d29687fe18964ab15/1473738535702/Beyonce-Complex-beyonce-34038963-1280-960.jpg" alt = "HTML5 Icon" alt="Beyonce" height="400em" width="400em">
+        </div>
+        </div>
 
-	<h3> Description</h3>
-	<p> American singer, songwriter, and actress born and raised in Houston, Texas. She got her start as lead singer of girl-group Destiny’s Child and then went on to have a successful solo career.</p>
-	<h3> Label </h3>
-	<p><a href="/LabelPages/columbia.html"> Columbia Records</a> </p>
+        <br><br>
 	
-	<h3> Songs </h3>
-	<p><a href="/SongPages/sorry_beyonce.html"> Sorry </a> </p>
-	<p><a href="/SongPages/xo_beyonce.html"> XO </a> </p>
+<table class="table-striped table-bordered" id="table1">
+			<tr><th>Origin</th><td> Houston, Texas </td></tr>
+			<tr><th>Debut</th><td>1997</td></tr>
+			<tr><th>Genre</th><td>R&B, Pop</td></tr>
+		</table>
 
-	<h3> Social Media Accounts </h3>
-	<div id="media">
-	<a href="http://www.facebook.com/beyonce/" class="fa fa-facebook"></a>
-	<a href="http://twitter.com/beyonce" class="fa fa-twitter"></a>
-	<a href="http://www.instagram.com/beyonce/" class ="fa fa-instagram"></a>
-	</div>
+		<table class="table-striped table-bordered" id="table2"> 
+			<tr><th>Label</th></tr>
+			<tr><td><a href="/LabelPages/columbia.html"> Columbia Records</a></td></tr>
+		</table>
+
+		<table class="table-striped table-bordered" id="table2"> 
+			<tr><th>Songs</th></tr>
+			<tr><td><a href="/SongPages/sorry_beyonce.html"> Sorry</a></td></tr>
+			<tr><td><a href="/SongPages/xo_beyonce.html"> XO </a></td></tr>
+		</table>		
+
+
+
 </body>
 </html>
