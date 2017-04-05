@@ -1,50 +1,94 @@
-<!-- 
-File name: sorry_beyonce.html
-Date created: 3/20/2017
--->
-
 <!DOCTYPE html>
-
 <html>
-  <head>
-    <title>Music Madness!</title>
-    <link rel="stylesheet" type="text/css" href="../musicmadness.css">
-    <style type = "text/css">
-    	body {
-    		text-align: center;
-    	}
-    </style>
+	<head>
+		<title>
+			Music Madness Record Label - Atlantic Records
+		</title>
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+		<link rel="stylesheet" title="basic style" type="text/css" href = "./homepage.css" media="all" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  </head>
+		<link rel="stylesheet" type="text/css" href="../musicmadness.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<style type="text/css">
 
-  <body>
-  	<!--Navigation bar-->
-    <h1 id = "title">Music Madness</h1>
-  	<div class="tab">
-	    <button class="tablinks" onclick="location.href='http://musicmadness.me'">Home</button>
-	    <button class="tablinks" onclick="location.href='http://musicmadness.me/about.html'">About</button>
-	    <button class="tablinks" onclick="location.href='http://musicmadness.me/ModelPages/songs.html'">Songs</button>
-	    <button class="tablinks" onclick="location.href='http://musicmadness.me/ModelPages/artists.html'">Artists</button>
-	    <button class="tablinks" onclick="location.href='http://musicmadness.me/ModelPages/labels.html'">Labels</button>
-		</div>
+			/* Center page */
+			h1, h2, h3, p, #media {
+				text-align: center;
+			}
 
-		<!--Song Attributes-->
-  	<h1>Sorry</h1>
-  	<h2>by <a href= "../ArtistPages/beyonce.html">Beyonce</a></h2>
-  	<h3>Album Title</h3>
-  	<p>Lemonade</p>
-  	<h3>Album Cover Art</h3>
-  	<img src = "https://upload.wikimedia.org/wikipedia/en/5/53/Beyonce_-_Lemonade_(Official_Album_Cover).png" alt = "Lemonade Cover" />
-    <h3>Record Label</h3>
-    <p><a href = "../LabelPages/columbia.html">Columbia Records</a></p>
-  	<h3>Release Date</h3>
-  	<p>May 3, 2016</p>
-  	<h3>Song Duration</h3>
-  	<p>3:52</p>
+			img, .featurette-heading {
+				padding-top: 2em;
+			}
 
-  	<!--Embedded YouTube Video-->
-    <h3>Music Video</h3>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/QxsmWxxouIM" frameborder="0" allowfullscreen></iframe>
+			.featurette-image {
+				padding-top: 8em;
+			}
 
-  </body>
+			table {
+				float: left;
+			}
+
+			#table1 {
+				margin: auto;
+				margin-left: 6em;
+				margin-top: 5px;
+				padding: 20px;
+				width: 40%;
+			}
+
+			#table2 {
+				margin: auto;
+				margin-left: 3em;
+				margin-top: 5px;
+				padding: 20px;
+				width: 20%;
+			}
+
+			th, td {
+				text-align: center;
+				padding: 10px;
+			}
+
+		</style>
+
+	</head>
+	<body>
+		<ul class="nav nav-pills navbar-inverse">
+        	<li><a href="http://musicmadness.me">Music Madness</a></li>
+        	<li><a href="http://musicmadness.me/about.html">About</a></li>
+        	<li><a href="http://musicmadness.me/ModelPages/songs.html">Songs</a></li>
+        	<li><a href="http://musicmadness.me/ModelPages/artists.html">Artists</a></li>
+        	<li class="active"><a href="http://musicmadness.me/ModelPages/labels.html">Labels</a></li>
+    	</ul>
+
+		<div class="row featurette">
+        	<div class="col-md-7 col-md-push-4">
+         		<h1 class="featurette-heading">Sorry<span class="text-muted"> | by <a href = "../ArtistPages/beyonce.html">Beyonce</a> </span></h1>
+          		<p class="lead"> “Sorry” is a defiant breakup song, a middle-fingered clap-back anthem about having strength and confidence in the midst of an otherwise serious and emotionally tugging breakup.</p>
+        	</div>
+        	<div class="col-md-5 col-md-pull-7">
+        		<img class="featurette-image img-responsive center-block" src="https://upload.wikimedia.org/wikipedia/en/5/53/Beyonce_-_Lemonade_(Official_Album_Cover).png" alt = "Lemonade Cover" height="200em" width="200em">
+        	</div>
+    	</div>
+
+    	<br><br>
+				
+		<table class="table-striped table-bordered" id="table1">
+			<tr><th>Album Title</th><td>Lemonade</td></tr>
+			<tr><th>Record Label</th><td><a href= "../LabelPages/columbia.html">Columbia Records</a></td>
+			<tr><th>Release Date</th><td>November 10, 2015</td></tr>
+			<tr><th>Duration</th><td>3:22</td></tr>
+		</table>
+		<table class="table-striped table-bordered" id="table2">
+			<tr><th>Music Video</th></tr>
+			<tr><td><iframe width="560" height="315" src="https://www.youtube.com/embed/QxsmWxxouIM" frameborder="0" allowfullscreen></iframe></td></tr>
+		</table>
+
+	</body>
 </html>
