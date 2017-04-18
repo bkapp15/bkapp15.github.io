@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Music Madness - Heathens
+		</title>
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+		<link rel="stylesheet" title="basic style" type="text/css" href = "./homepage.css" media="all" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="/static/css/musicmadness.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		
+		<style type="text/css">
+
+			/* Center page */
+			h1, h2, h3, p, #media {
+				text-align: center;
+			}
+
+			img, .featurette-heading {
+				padding-top: 2em;
+			}
+
+			.featurette-image {
+				padding-top: 8em;
+			}
+
+			table {
+				float: left;
+			}
+
+			#table1 {
+				margin: auto;
+				margin-left: 6em;
+				margin-top: 5px;
+				padding: 20px;
+				width: 40%;
+			}
+
+			#table2 {
+				margin: auto;
+				margin-left: 3em;
+				margin-top: 5px;
+				padding: 20px;
+				width: 20%;
+			}
+
+			th, td {
+				text-align: center;
+				padding: 10px;
+			}
+
+		</style>
+
+	</head>
+	<body>
+		<ul class="nav nav-pills navbar-inverse">
+	        <li><a href={{ url_for('index') }}>Music Madness</a></li>
+	        <li><a href={{ url_for('about') }}>About</a></li>
+	        <li><a href={{ url_for('songs') }}>Songs</a></li>
+	        <li><a href={{ url_for('artists') }}>Artists</a></li>
+	        <li class="active"><a href={{ url_for('labels') }}>Labels</a></li>
+	    </ul>
+
+		<div class="row featurette">
+        	<div class="col-md-7 col-md-push-4">
+         		<h1 class="featurette-heading">Heathens<span class="text-muted"> | by <a href = "../ArtistPages/21pilots.html">Twenty One Pilots</a> </span></h1>
+          		<p class="lead">“Heathens” premiered in June 2016 and was the first new single from ​twenty one pilots following the success of their 2015 album, Blurryface, and its singles.</p>
+        	</div>
+        	<div class="col-md-5 col-md-pull-7">
+        		<img class="featurette-image img-responsive center-block" src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Suicide_Squad_album_cover.jpg/220px-Suicide_Squad_album_cover.jpg" alt = "Suicide Squad Album Cover" height="300em" width="300em">
+        	</div>
+    	</div>
+
+    	<br><br>
+				
+		<table class="table-striped table-bordered" id="table1">
+			<tr><th>Album Title</th><td>Suicide Squad: The Album</td></tr>
+			<tr><th>Record Label</th><td><a href= "../LabelPages/warner_bros.html">Warner Bros Records</a></td>
+			<tr><th>Release Date</th><td>June 16, 2016</td></tr>
+			<tr><th>Duration</th><td>3:15</td></tr>
+		</table>
+		<table class="table-striped table-bordered" id="table2">
+			<tr><th>Music Video</th></tr>
+			<tr><td><iframe width="560" height="315" src="https://www.youtube.com/embed/UprcpdwuwCg" frameborder="0" allowfullscreen></iframe></td></tr>
+		</table>
+
+	</body>
+</html>

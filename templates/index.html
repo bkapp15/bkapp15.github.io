@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Music Madness!</title>
+    <link rel="stylesheet" type="text/css" href="static/css/musicmadness.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" title="basic style" type="text/css" href = "./homepage.css" media="all" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style type="text/CSS">
+    img{
+        width: 100%;
+    }
+    li a {
+        color: white;
+    }
+    p{
+        text-align: center;
+    }
+    body{
+        background-color: #eee;
+    }
+    .jumbotron{
+        padding-top: 10px;
+    }
+    </style>
+</head>
+<body>
+    <ul class="nav nav-pills navbar-inverse">
+        <li class="active"><a href={{ url_for('index') }}>Music Madness</a></li>
+        <li><a href={{ url_for('about') }}>About</a></li>
+        <li><a href={{ url_for('songs') }}>Songs</a></li>
+        <li><a href={{ url_for('artists') }}>Artists</a></li>
+        <li><a href={{ url_for('labels') }}>Labels</a></li>
+    </ul>
+    <div class="jumbotron">
+        <div class="container">
+            <h1 id = "title">Music Madness!</h1>
+            <p>This is a place where you can explore the world of music! Follow the links between pages to learn about the details of and interconnections between artists, their songs, and the record labels they're signed under.</p>
+        </div>
+        <div id="musicMadnessCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#musicMadnessCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#musicMadnessCarousel" data-slide-to="1"></li>
+                <li data-target="#musicMadnessCarousel" data-slide-to="2"></li>
+                <li data-target="#musicMadnessCarousel" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img class="d-block img-fluid" src="static/images/home.jpg" alt="First slide">
+                </div>
+                <div class="item">
+                    <img class="d-block img-fluid" src="static/images/artists.jpg" alt="Second slide">
+                </div>
+                <div class="item">
+                    <img class="d-block img-fluid" src="static/images/songs.jpg" alt="Third slide">
+                </div>
+                <div class="item">
+                    <img class="d-block img-fluid" src="static/images/labels.jpg" alt="Fourth slide">
+                </div>
+            </div>
+            <a class="left carousel-control" href="#musicMadnessCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#musicMadnessCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</body>	
+</html>

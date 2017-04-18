@@ -1,0 +1,124 @@
+<html>
+	<head>
+		<title>
+			Artists
+		</title>
+		<link rel="stylesheet" type="text/css" href="/static/css/musicmadness.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script type="text/javascript" src="jquery-latest.js"></script> 
+		<script type="text/javascript" src="jquery.tablesorter.js"></script> 
+		<script type="text/javascript">
+		$(document).ready(function() 
+		    { 
+		        $("#myTable").tablesorter(); 
+		    } 
+		);
+		</script>
+		<style type="text/CSS">
+		/* Style table */
+		table {
+			margin: auto;
+			margin-top: 5px;
+			padding: 20px;
+			width: 98%;
+		}
+		table, th, td {
+			text-align: center;
+		}
+		th, td{
+			padding: 10px;
+		}
+		img {
+			width: 150px;
+		}
+		h1{
+			text-align: center;
+    		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    		padding-bottom: 5px;
+    		margin: auto;
+    		line-height: 1.5;
+		}
+		li a {
+    		color: white;
+    	}
+    	#updown{
+    		width: 20px;
+    		float: right;
+    	}
+    	#debut{
+    		width: 100px;
+    	}
+		</style>
+	</head>
+	<body>
+		<ul class="nav nav-pills navbar-inverse">
+	        <li><a href={{ url_for('index') }}>Music Madness</a></li>
+	        <li><a href={{ url_for('about') }}>About</a></li>
+	        <li><a href={{ url_for('songs') }}>Songs</a></li>
+	        <li class="active"><a href={{ url_for('artists') }}>Artists</a></li>
+	        <li><a href={{ url_for('labels') }}>Labels</a></li>
+	    </ul>
+		<h1><strong>Artists</strong></h1>
+		<table id="myTable" class = "tablesorter table-striped table-bordered">
+			<thead>
+				<tr>
+					<th>Name<img id="updown" src="/static/images/updown.png"></th>
+					<th>Origin<img id="updown" src="/static/images/updown.png"></th>
+					<th id="debut">Debut<img id="updown" src="/static/images/updown.png"></th>
+					<th>Genre<img id="updown" src="/static/images/updown.png"></th>
+					<th>Description<img id="updown" src="/static/images/updown.png"></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><a href={{ url_for('beyonce') }}>Beyonce</a></td>
+					<td>Houston, Texas</td>
+					<td>1997</td>
+					<td>R&#38;B, Pop</td>
+					<td>American singer, songwriter, and actress born and raised in Houston, Texas. She got her start as lead singer of girl-group Destiny's Child and then went on to have a successful solo career.</td>
+				</tr>
+				<tr>
+					<td><a href={{ url_for('twentyonepilots') }}>Twenty One Pilots</a></td>
+					<td>Columbus, Ohio</td>
+					<td>2009</td>
+					<td>Alternative hip hop, Electropop</td>
+					<td>American musical duo from Columbus, Ohio. The group originally consisted of lead vocalist Tyler Joseph, bassist Nick Thomas, and drummer Chris Salih. Thomas and Salih left the group in 2011 and drummer Josh Dun joined. The group currently consists of Joseph and Dun.</td>
+				</tr>
+				<tr>
+					<td><a href={{ url_for('rihanna') }}>Rihanna</a></td>
+					<td>Saint Michael, Barbados</td>
+					<td>2003</td>
+					<td>R&#38;B, Pop</td>
+					<td>Barbadian singer, songwriter, and actress. She got her start in the industry by releasing demo tapes and auditioning for Jay Z. After signing, she began her solo career.</td>
+				</tr>
+				<tr>
+					<td><a href={{ url_for('thechainsmokers') }}>The Chainsmokers</a></td>
+					<td>New York City, New York</td>
+					<td>2012</td>
+					<td>Electronic dance music, Pop</td>
+					<td>American DJ/producer duo from New York City. The group consists of Andrew Taggart and Alex Pall.</td>
+				</tr>
+				<tr>
+					<td><a href={{ url_for('edsheeran') }}>Ed Sheeran</a></td>
+					<td>Halifax, England</td>
+					<td>2004</td>
+					<td>Pop, Acoustic</td>
+					<td>English singer-songwriter and record producer. His independently released EP caught the attention of Elton John and Jamie Foxx. He then signed with Asylum Records and released his debut album.</td>
+				</tr>
+				<tr>
+					<td><a href={{ url_for('brunomars') }}>Bruno Mars</a></td>
+					<td>Los Angeles, California</td>
+					<td>2004</td>
+					<td>R&#38;B, Funk</td>
+					<td>American singer-songwriter, instrumentalist, record producer, and choreographer. He began making music and performing at a young age and eventually moved to Los Angeles to pursue a musical career. There he signed with Atlantic Records.</td>
+				</tr>
+			</tbody>
+		</table>
+        <div style="text-align:center; margin:20px">
+            <ul class="pagination">
+              <li class="active"><a href={{ url_for('artists') }}>1</a></li>
+              <li><a href={{ url_for('artists_2') }}>2</a></li>
+            </ul>
+        </div>
+	</body>
+</html>

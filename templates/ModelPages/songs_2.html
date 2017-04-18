@@ -1,0 +1,128 @@
+<html>
+	<head>
+		<title>
+			Songs
+		</title>
+		<link rel="stylesheet" type="text/css" href="static/css/musicmadness.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script type="text/javascript" src="jquery-latest.js"></script> 
+		<script type="text/javascript" src="jquery.tablesorter.js"></script> 
+		<script type="text/javascript">
+		$(document).ready(function() 
+		    { 
+		        $("#myTable").tablesorter(); 
+		    } 
+		);
+		</script>
+		<style type="text/CSS">
+		/* Style table */
+		table {
+			margin: auto;
+			margin-top: 5px;
+			padding: 20px;
+			width: 98%;
+		}
+		table, th, td {
+			text-align: center;
+		}
+		th, td{
+			padding: 10px;
+		}
+		img {
+			width: 150px;
+		}
+		.pagination{
+			margin: auto;
+			padding: 5px;
+		}
+		h1{
+			text-align: center;
+    		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    		padding-bottom: 5px;
+    		margin: auto;
+    		line-height: 1.5;
+		}
+		li a {
+    		color: white;
+    	}
+    	#updown{
+    		width: 20px;
+    		float: right;
+    	}
+    	#length{
+    		width: 130px;
+    	}
+		</style>
+	</head>
+	<body>
+		<ul class="nav nav-pills navbar-inverse">
+	        <li><a href={{ url_for('index') }}>Music Madness</a></li>
+	        <li><a href={{ url_for('about') }}>About</a></li>
+	        <li class="active"><a href={{ url_for('songs') }}>Songs</a></li>
+	        <li><a href={{ url_for('artists') }}>Artists</a></li>
+	        <li><a href={{ url_for('labels') }}>Labels</a></li>
+	    </ul>
+		<h1><strong>Songs</strong></h1>
+		<table id="myTable" class = "tablesorter table-striped table-bordered">
+			<thead>
+				<tr>
+					<th class="header">Cover</th>
+					<th>Title<img id="updown" src="/static/images/updown.png"></th>
+					<th>Album<img id="updown" src="/static/images/updown.png"></th>
+					<th>Artist<img id="updown" src="/static/images/updown.png"></th>
+					<th>Release<img id="updown" src="/static/images/updown.png"></th>
+					<th id="length">Length<img id="updown" src="/static/images/updown.png"></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Bruno_Mars_-_24K_Magic_%28Official_Album_Cover%29.png/220px-Bruno_Mars_-_24K_Magic_%28Official_Album_Cover%29.png" alt = "24K Magic Cover" ></td>
+					<td><a href={{ url_for('magic_brunomars') }}>24K Magic</a></td>
+					<td>24K Magic</td>
+					<td><a href={{ url_for('brunomars') }}>Bruno Mars</a></td>
+					<td>October 7, 2016</td>
+					<td>3:46</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/4/4b/Ariana_Grande_-_Dangerous_Woman_%28Official_Album_Cover%29.png/220px-Ariana_Grande_-_Dangerous_Woman_%28Official_Album_Cover%29.png" alt = "Dangerous Woman Cover" ></td>
+					<td><a href={{ url_for('sidetoside_arianagrande') }}>Side to Side</a></td>
+					<td>Dangerous Woman</td>
+					<td><a href={{ url_for('arianagrande') }}>Ariana Grande</a></td>
+					<td>August 30, 2016</td>
+					<td>3:46</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Thisisacting_albumcover.png/220px-Thisisacting_albumcover.png" alt = "This Is Acting Cover" ></td>
+					<td><a href={{ url_for('cheapthrills_sia') }}>Cheap Thrills</a></td>
+					<td>This Is Acting</td>
+					<td><a href={{ url_for('sia') }}>Sia</a></td>
+					<td>February 11, 2016</td>
+					<td>3:44</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Suicide_Squad_album_cover.jpg/220px-Suicide_Squad_album_cover.jpg" alt = "Suicide Squad Cover" ></td>
+					<td><a href={{ url_for('heathens_21pilots') }}>Heathens</a></td>
+					<td>Suicide Squad: The Album</td>
+					<td><a href={{ url_for('twentyonepilots') }}>Twenty One Pilots</a></td>
+					<td>June 16, 2016</td>
+					<td>3:15</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/en/thumb/9/96/Adele_-_25_%28Official_Album_Cover%29.png/220px-Adele_-_25_%28Official_Album_Cover%29.png" alt = "25 Cover" ></td>
+					<td><a href={{ url_for('hello_adele') }}>Hello</a></td>
+					<td>25</td>
+					<td><a href={{ url_for('adele') }}>Adele</a></td>
+					<td>October 23, 2015</td>
+					<td>4:55</td>
+				</tr>
+			</tbody>
+		</table>
+        <div style="text-align:center; margin:20px">
+            <ul class="pagination">
+              <li><a href={{ url_for('songs') }}>1</a></li>
+              <li class="active"><a href={{ url_for('songs_2') }}>2</a></li>
+              <li><a href={{ url_for('songs_3') }}>3</a></li>
+            </ul>
+        </div>
+	</body>
+</html>

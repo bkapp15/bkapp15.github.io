@@ -1,0 +1,108 @@
+<html>
+	<head>
+		<title>
+			Labels
+		</title>
+		<link rel="stylesheet" type="text/css" href="static/css/musicmadness.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<script type="text/javascript" src="jquery-latest.js"></script> 
+		<script type="text/javascript" src="jquery.tablesorter.js"></script> 
+		<script type="text/javascript">
+		$(document).ready(function() 
+		    { 
+		        $("#myTable").tablesorter(); 
+		    } 
+		);
+		</script>
+		<style type="text/CSS">
+		/* Style table */
+		table {
+			margin: auto;
+			margin-top: 5px;
+			padding: 20px;
+			width: 98%;
+		}
+		table, th, td {
+			text-align: center;
+		}
+		th, td{
+			padding: 10px;
+		}
+		img {
+			width: 150px;
+		}
+		h1{
+			text-align: center;
+    		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    		padding-bottom: 5px;
+    		margin: auto;
+    		line-height: 1.5;
+		}
+		li a {
+    		color: white;
+    	}
+    	#updown{
+    		width: 20px;
+    		float: right;
+    	}
+		</style>
+	</head>
+	<body>
+		<ul class="nav nav-pills navbar-inverse">
+	        <li><a href={{ url_for('index') }}>Music Madness</a></li>
+	        <li><a href={{ url_for('about') }}>About</a></li>
+	        <li><a href={{ url_for('songs') }}>Songs</a></li>
+	        <li><a href={{ url_for('artists') }}>Artists</a></li>
+	        <li class="active"><a href={{ url_for('labels') }}>Labels</a></li>
+	    </ul>
+		<h1><strong>Labels</strong></h1>
+		<table id="myTable" class = "tablesorter table-striped table-bordered">
+			<thead>
+				<tr>
+					<th>Logo</th>
+					<th>Name<img id="updown" src="/static/images/updown.png"></th>
+					<th>Founded<img id="updown" src="/static/images/updown.png"></th>
+					<th>CEO<img id="updown" src="/static/images/updown.png"></th>
+					<th>Location<img id="updown" src="/static/images/updown.png"></th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/commons/3/35/Republic_records_logo.png " alt = "Republic Logo" ></td>
+					<td><a href={{ url_for('republic') }}>Republic Records</a></td>
+					<td>1995</td>
+					<td>Monte Lipman</td>
+					<td><a href="https://www.google.com/maps/place/New+York,+NY/@40.705311,-74.258188,10z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127837!4d-74.0059413">New York City, NY</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/RCA_Records_%28logo%29.svg/180px-RCA_Records_%28logo%29.svg.png" alt = "RCA Logo" ></td>
+					<td><a href={{ url_for('rca') }}>RCA Records</a></td>
+					<td>1901</td>
+					<td>Peter Edge</td>
+					<td><a href="https://www.google.com/maps/place/New+York,+NY/@40.705311,-74.258188,10z/data=!3m1!4b1!4m5!3m4!1s0x89c24fa5d33f083b:0xc80b8f06e177fe62!8m2!3d40.7127837!4d-74.0059413">New York City, NY</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/en/6/65/Warner_Bros._Records_Logo_2002.png" alt = "Warner Bros Logo" ></td>
+					<td><a href={{ url_for('warner_bros') }}>Warner Bros. Records</a></td>
+					<td>1958</td>
+					<td>Cameron Strang</td>
+					<td><a href="https://www.google.com/maps/place/Burbank,+CA/@34.1821326,-118.3952509,12z/data=!3m1!4b1!4m5!3m4!1s0x80c295152818c595:0x307791af901f8ad4!8m2!3d34.1808392!4d-118.3089661">Burbank, CA</td>
+				</tr>
+				<tr>
+					<td><img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/XL_Recordings_Logo.svg/200px-XL_Recordings_Logo.svg.png" alt = "XL Logo" ></td>
+					<td><a href={{ url_for('xl') }}>XL Recordings</a></td>
+					<td>1989</td>
+					<td>Richard Russell</td>
+					<td><a href="https://www.google.com/maps/place/London,+UK/@51.5287352,-0.381793,10z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5073509!4d-0.1277583">London, England</td>
+				</tr>
+			</tbody>
+		</table>
+        <div style="text-align:center; margin:20px">
+            <ul class="pagination">
+              <li><a href={{ url_for('labels') }}>1</a></li>
+              <li class="active"><a href={{ url_for('labels_2') }}>2</a></li>
+              <li><a href={{ url_for('labels_3') }}>3</a></li>
+            </ul>
+        </div>
+	</body>
+</html>
