@@ -201,4 +201,4 @@ def bigmachine():
     return render_template('LabelPages/bigmachine.html')
 
 if __name__ == "__main__":
-    app.run()
+    app.run('104.131.67.71','80')
