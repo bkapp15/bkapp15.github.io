@@ -169,7 +169,7 @@ def atlantic():
     return render_template('LabelPages/atlantic.html')
 
 @app.route("/LabelPages/republic.html")
-def republicrepublic():
+def republic():
     return render_template('LabelPages/republic.html')
 
 @app.route("/LabelPages/rca.html")
