@@ -1,0 +1,1173 @@
+commit 712a2f9699fd4e303fef9340a51c445997626135
+Author: root <root@cs329e-musicmadness.localdomain>
+Date:   Thu Apr 20 18:48:16 2017 +0000
+
+    deleted old about.html
+
+commit 25c08ed4c43f2fd6fba02523204a0fea494d4eed
+Author: root <root@cs329e-musicmadness.localdomain>
+Date:   Thu Apr 20 18:47:24 2017 +0000
+
+    Another About.html update
+
+commit dc84f98550eb2e630cbeddad4f395a95759ea224
+Merge: f9af73e 44b865c
+Author: root <root@cs329e-musicmadness.localdomain>
+Date:   Thu Apr 20 18:42:08 2017 +0000
+
+    Merge branch 'master' of https://github.com/bkapp15/bkapp15.github.io
+
+commit f9af73e36034a4f5c21031eca4c3d93855aaee93
+Author: root <root@cs329e-musicmadness.localdomain>
+Date:   Thu Apr 20 18:41:39 2017 +0000
+
+    Updated about.html
+
+commit 44b865c0e8bc2d908f2c3c011f963391533216aa
+Author: Allen91 <Allen91@users.noreply.github.com>
+Date:   Thu Apr 20 09:37:51 2017 -0500
+
+    Delete index.html
+    
+    This was a temp file.
+
+commit 0692d1fa6bd218ccba0e70787c9c7205f2af1bb1
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Wed Apr 19 18:18:36 2017 -0500
+
+    Edit back to Flask links
+
+commit cc92ad4046959ef4d7ca41903ed66cea5df698d9
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Wed Apr 19 18:14:10 2017 -0500
+
+    Edit About template page
+
+commit c3b55a906dd43aab88d96877f16b59f6360423c3
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Wed Apr 19 18:12:18 2017 -0500
+
+    Add to the Tools section on About page
+
+commit 05c62a96e3b4ba8ff2e9393a4b9b60a30b3d7fe8
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Tue Apr 18 19:27:05 2017 -0500
+
+    fixed minor issues- republic and homepage.css
+
+commit 2e6f0a8465370c0e08a12f4b7d6beb3b879c7cad
+Merge: 5f66a24 5726fa4
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Tue Apr 18 19:15:45 2017 -0500
+
+    Merge branch 'master' of https://github.com/bkapp15/bkapp15.github.io
+
+commit 5f66a24974e8b519d6d5ba66c8d15137414fd297
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Tue Apr 18 19:15:22 2017 -0500
+
+    fixed homepage.css 404 issue
+
+commit 5726fa4e7864e6ff72de2637dffd18bd003f7956
+Author: Blake <bak792@utexas.edu>
+Date:   Tue Apr 18 19:15:20 2017 -0500
+
+    removed stylesheet link to homepage.css because no longer exists
+
+commit 92b8738c16a171540d22d1290ec3314d152a5da5
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Tue Apr 18 18:56:33 2017 -0500
+
+    Changed js file locations
+
+commit eb0b34039983e5fcc4df16c35b325be43318f4b4
+Author: root <root@cs329e-musicmadness.localdomain>
+Date:   Tue Apr 18 23:51:04 2017 +0000
+
+    updated app.run() function with IP address'
+
+commit 6de5074fa606dddeae780e9c5763d311c52c9e0f
+Author: Allen91 <Allen91@users.noreply.github.com>
+Date:   Tue Apr 18 18:41:54 2017 -0500
+
+    Created temp index file
+
+commit 1af658f0ab1cd523045e679f854e0e640eabcb7b
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Mon Apr 17 20:02:55 2017 -0500
+
+    Changed file structure and files for flask
+
+commit 0d602d4fb614a328c7cdb2e559d2fcc7024a1169
+Merge: 024d847 e249155
+Author: root <root@cs329e-musicmadness.localdomain>
+Date:   Thu Apr 13 00:02:48 2017 +0000
+
+    Merge branch 'master' of https://github.com/bkapp15/bkapp15.github.io
+
+commit 024d8475329e4b0ae9e7e884c76def2dd66b1645
+Author: root <root@cs329e-musicmadness.localdomain>
+Date:   Thu Apr 13 00:02:13 2017 +0000
+
+    Digital Ocean and Flask setup: basic app.py flask script, app.wsgi, __init__.py and requirements.txt to refer to when installing flask packages on your machine using 'pip install -r requirements.txt'. Ignoring venv/ folder cause too much stuff.
+
+commit e249155192b60cd284bdeb441edd2526118db77c
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Wed Apr 12 17:12:28 2017 -0500
+
+    Change column width
+
+commit b51bdd241eb22abc3b880732eaf1280a048e71b3
+Author: bkapp15 <bak792@utexas.edu>
+Date:   Thu Apr 6 12:05:53 2017 -0500
+
+    new IDB2.log and updated commits
+
+commit 2dd1797d1db2f64967d0b74647fd316501a5a6bb
+Author: bkapp15 <bak792@utexas.edu>
+Date:   Thu Apr 6 11:59:58 2017 -0500
+
+    final fix on Heathens song page, updated commits, new sitemap
+
+commit be482d0285fbf2b0974f65eb97a7732ef463ffcc
+Author: Roger Craycroft <rogercraycroft@wireless-10-145-201-192.public.utexas.edu>
+Date:   Thu Apr 6 11:11:52 2017 -0500
+
+    nav bar change
+
+commit 66b2115c7ad2c3e8e11d178910ac5bcdd4caff67
+Author: Roger Craycroft <rogercraycroft@wireless-10-145-201-192.public.utexas.edu>
+Date:   Thu Apr 6 11:07:08 2017 -0500
+
+    nav bar change
+
+commit 6d6cbb1141b77b4cfad12dace6659e5fb93d6a82
+Author: Allen Fernandes <allen.fernandes.te@renesas.com>
+Date:   Thu Apr 6 09:30:01 2017 -0500
+
+    Added IDB2.log
+
+commit 1f4316c875890213342716bdb2f77aa2d66dea22
+Author: Allen Fernandes <allen.fernandes.te@renesas.com>
+Date:   Thu Apr 6 09:24:16 2017 -0500
+
+    Updated about page
+
+commit afb689b983598314beb0b6786946c0978c97e1e6
+Author: Rebecca Bingham <Rebecca Bingham>
+Date:   Wed Apr 5 23:14:23 2017 -0500
+
+    Edit references
+
+commit 27f45ea550552c36be7ac7121926d0e151cbdaa3
+Author: bkapp15 <bak792@utexas.edu>
+Date:   Wed Apr 5 20:19:35 2017 -0500
+
+    created all song pages
+
+commit 86024d0c4a4288e6db9e44f93e406f8e82bdd49b
+Author: Allen Fernandes <allenfernandes@utexas.edu>
+Date:   Wed Apr 5 20:08:26 2017 -0500
+
+    removed unit-test column & updated issue count.
+
+commit f894f0b809b76ffd4de957cd39b661f206705330
+Author: Blake <bak792@utexas.edu>
+Date:   Wed Apr 5 19:28:14 2017 -0500
+
+    almost all song pages
+
+commit 7438a30171046bde467f75b32ae1aa48ecb4bf7e
+Merge: 257f4f3 6a77aa7
+Author: Rebecca Bingham <Rebecca Bingham>
+Date:   Wed Apr 5 18:35:17 2017 -0500
+
+    Merge branch 'master' of https://github.com/bkapp15/bkapp15.github.io
+
+commit 257f4f3bb2618c087fed17ec2a5557b9939a0d19
+Author: Rebecca Bingham <Rebecca Bingham>
+Date:   Wed Apr 5 18:35:13 2017 -0500
+
+    Adjust artist images
+
+commit 6a77aa7e4e6ef98be966b5e6173539927619e66b
+Author: bkapp15 <bak792@utexas.edu>
+Date:   Tue Apr 4 22:15:23 2017 -0500
+
+    Implemented bootstrap for Sorry song page
+
+commit 5bb5bc66fdc9ca1b0610e8b722904b95657397dd
+Author: Roger Craycroft <rogercraycroft@wireless-10-145-113-143.public.utexas.edu>
+Date:   Tue Apr 4 16:08:12 2017 -0500
+
+    move songs around
+
+commit 75e1c8faba7413edff31e5d657d71aa298a187fa
+Author: Rebecca Bingham <Rebecca Bingham>
+Date:   Tue Apr 4 15:48:48 2017 -0500
+
+    Update references
+
+commit 1d9d63e4db856ab7a8e718e7d024610db10d09cc
+Author: Rebecca Bingham <Rebecca Bingham>
+Date:   Tue Apr 4 15:34:47 2017 -0500
+
+    Add Warner to 21 Pilots
+
+commit 4d81f3b4fb83e8a54348eeb31e5faf7e9503aa29
+Author: Roger Craycroft <rogercraycroft@wireless-10-145-113-143.public.utexas.edu>
+Date:   Tue Apr 4 15:28:47 2017 -0500
+
+    add big machine, def jam, and island
+
+commit 80d13fdba8c66a861fdfd615ac3e8982f4a41b5c
+Author: Roger Craycroft <rogercraycroft@Rogers-MacBook-Air.local>
+Date:   Tue Apr 4 01:00:41 2017 -0500
+
+    add epic records
+
+commit 0f6a420edda893af341bf46b5e10b811dc1284a7
+Author: Roger Craycroft <rogercraycroft@Rogers-MacBook-Air.local>
+Date:   Tue Apr 4 00:45:17 2017 -0500
+
+    add WB and XL
+
+commit efa607664c6f4ebdac32f30e1035cdd103464ee1
+Author: Roger Craycroft <rogercraycroft@Rogers-MacBook-Air.local>
+Date:   Mon Apr 3 23:48:12 2017 -0500
+
+    add republic and rca
+
+commit e64e8b58b7639347b286daba0d7d6b3c74101315
+Author: Roger Craycroft <rogercraycroft@Rogers-MacBook-Air.local>
+Date:   Mon Apr 3 23:06:35 2017 -0500
+
+    add atlantic page
+
+commit d425688190e260ad6c3c58849fbcae2078b3fcde
+Author: Rebecca Bingham <Rebecca Bingham>
+Date:   Mon Apr 3 19:34:35 2017 -0500
+
+    Artist Page Style
+
+commit 7fd109acb4b8a2ff19c557dd70e55a95ed9c0b11
+Author: Roger Craycroft <rogercraycroft@wireless-10-147-236-11.public.utexas.edu>
+Date:   Mon Apr 3 19:08:37 2017 -0500
+
+    logo fix
+
+commit 08ad811bce57b57d5e3d66e878ef54459f5db044
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Mon Apr 3 19:07:06 2017 -0500
+
+    Edit Sia Page
+
+commit 7c5952d49049ea7402dd780f478514433a3cfe06
+Merge: 3f4f4bb abc16ea
+Author: Roger Craycroft <rogercraycroft@wireless-10-147-236-11.public.utexas.edu>
+Date:   Mon Apr 3 19:05:27 2017 -0500
+
+    Merge branch 'master' of https://github.com/bkapp15/bkapp15.github.io
+
+commit 3f4f4bba123db2b448cea92db9a2911ae091df39
+Author: Roger Craycroft <rogercraycroft@wireless-10-147-236-11.public.utexas.edu>
+Date:   Mon Apr 3 19:05:14 2017 -0500
+
+    Style ramen and roc nation pages
+
+commit abc16ea31f09b8c1b1c0123b2e89b203c820d6a3
+Author: Rebecca Bingham <Rebecca Bingham>
+Date:   Mon Apr 3 19:04:31 2017 -0500
+
+    Updated Artist pages
+
+commit e796f7cd70cf73b8031245e13da775c4ed75fdb5
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Mon Apr 3 19:03:22 2017 -0500
+
+    Edit artist pages
+
+commit 197a81aa6fcfa46d0546905d82aec9edb2091d33
+Author: Allen Fernandes <allenfernandes@utexas.edu>
+Date:   Mon Apr 3 19:02:38 2017 -0500
+
+    added artists links on songs pages
+
+commit 44a21b4faa772edfb6a975abe3ba53d063cb4eaf
+Author: Allen Fernandes <allenfernandes@utexas.edu>
+Date:   Mon Apr 3 18:40:40 2017 -0500
+
+    Added pagination to label pages
+
+commit 3899804425b87beb54e6e285b7ae414575911175
+Author: Roger Craycroft <rogercraycroft@wireless-10-147-236-11.public.utexas.edu>
+Date:   Mon Apr 3 18:33:31 2017 -0500
+
+    Style columbia page
+
+commit fcb70964091eab6cff86d45f2d13aeb5da172033
+Author: Allen Fernandes <allenfernandes@utexas.edu>
+Date:   Mon Apr 3 18:30:22 2017 -0500
+
+    Added pagination to artists
+
+commit 30c1568270c607887ce3047cfb0ecb8743d9841b
+Author: Allen Fernandes <allenfernandes@utexas.edu>
+Date:   Mon Apr 3 18:24:13 2017 -0500
+
+    removed duplicate data.
+
+commit 7d91d7d52de026e588ba6393c45048180752f7af
+Author: Allen Fernandes <allenfernandes@utexas.edu>
+Date:   Mon Apr 3 18:20:06 2017 -0500
+
+    Pagination margin.
+
+commit e84ed9a0980df6c18c6cc6acce02a9129014e4c7
+Merge: 34f06d2 9cb37c1
+Author: Allen Fernandes <allenfernandes@utexas.edu>
+Date:   Mon Apr 3 18:16:56 2017 -0500
+
+    Merge branch 'master' of https://github.com/bkapp15/bkapp15.github.io
+
+commit 34f06d2988eb474f76dca3c0966148d3fc858ee6
+Author: Allen Fernandes <allenfernandes@utexas.edu>
+Date:   Mon Apr 3 18:16:31 2017 -0500
+
+    Added pagination for songs pages.
+
+commit 9cb37c1828449b0e2450882cb4e2fdf77e2b0caf
+Author: Rebecca Bingham <Rebecca Bingham>
+Date:   Mon Apr 3 18:16:20 2017 -0500
+
+    Update nav bar
+
+commit 7d75e1e956ffd14e6fd1b6a98feb0caed4f1e528
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Mon Apr 3 18:07:33 2017 -0500
+
+    minor change to table
+
+commit 67a60aead1d8d2e694ce9a9afb27945093c36d3a
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Mon Apr 3 17:59:35 2017 -0500
+
+    Add sorting
+
+commit ffca32adeb6594a75a4e394c0bac9cbfe87fa8e4
+Author: Rebecca Bingham <Rebecca Bingham>
+Date:   Mon Apr 3 17:44:35 2017 -0500
+
+    Change filename for nav
+
+commit ce99cf92ab8e0745300423f5a068b27bc073c97f
+Author: Rebecca Bingham <Rebecca Bingham>
+Date:   Mon Apr 3 17:41:37 2017 -0500
+
+    Update Bootstrap Nav Bar
+
+commit 339a4f6335148b13b0d368cd29df9dcb89d77cd2
+Author: Allen91 <Allen91@users.noreply.github.com>
+Date:   Mon Apr 3 17:21:24 2017 -0500
+
+    Update musicmadness.css
+
+commit d3d39263803a4e41af6f91e6b6ec926b376d6162
+Author: Roger Craycroft <rogercraycroft@wireless-10-146-218-140.public.utexas.edu>
+Date:   Mon Apr 3 16:26:12 2017 -0500
+
+    Update to bootstrap nav bar
+
+commit 656f9cb10a8a98c55785025443bdac9533c05ccf
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Mon Apr 3 16:06:34 2017 -0500
+
+    Update navigation on model pages
+
+commit 9d8f04df4a0ecfb5a7c5865a7aa62964055c0a84
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Mon Apr 3 15:58:48 2017 -0500
+
+    Small navigation and about page changes
+
+commit 5575547e8f5f050172bee773f0c37e3135fb74e6
+Merge: c80b97a 1618754
+Author: Allen Fernandes <allenfernandes@utexas.edu>
+Date:   Sat Apr 1 12:29:47 2017 -0500
+
+    Merge branch 'master' of https://github.com/bkapp15/bkapp15.github.io
+
+commit c80b97ab1b2d2372522cd6a7976757bf01055043
+Author: Allen Fernandes <allenfernandes@utexas.edu>
+Date:   Sat Apr 1 11:10:36 2017 -0500
+
+    Fixed image width issue
+
+commit 16187548561c28b36b0e0e4831ad1e794d43e702
+Author: Allen Fernandes <allenfernandes@utexas.edu>
+Date:   Sat Apr 1 11:10:36 2017 -0500
+
+    Fixed image width issue
+
+commit 95bc1d2a8af2d40cbcdfaefda4d2bfc826103e7a
+Author: Allen Fernandes <allenfernandes@utexas.edu>
+Date:   Sat Apr 1 10:44:09 2017 -0500
+
+    Updated about page
+
+commit eac6c7e1f5464ebed59abb22d5cfa76bba664708
+Author: Allen Fernandes <allenfernandes@utexas.edu>
+Date:   Sat Apr 1 02:08:25 2017 -0500
+
+    Updated index page
+    Added carousel, jumbotron and navigations using bootstrap CSS.
+
+commit ea2b2eec0acca83d788f59b6028928829e74937b
+Author: Rebecca Bingham <Rebecca Bingham>
+Date:   Fri Mar 31 21:13:28 2017 -0500
+
+    Add Artists
+
+commit ca2bf0eddc663d760ab96835a51613313fded894
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Wed Mar 29 18:30:42 2017 -0500
+
+    Change some formatting
+
+commit 75d6661fa69eb0bf7742f956c45a9890c12874f8
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Wed Mar 29 18:18:23 2017 -0500
+
+    Add labels and change links
+
+commit 2d0661d37a91baf65e2b0ffd18d2cff0b23bfc70
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Wed Mar 29 17:57:39 2017 -0500
+
+    Add more labels
+
+commit 7221cc757b2e9e7534471321033cab417777c95a
+Author: Blake <bak792@utexas.edu>
+Date:   Wed Mar 29 17:49:15 2017 -0500
+
+    Added Jumbotron to index.html
+
+commit 3266825dbbf8f7b4677e51207dfba9752bb01db3
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Wed Mar 29 17:47:10 2017 -0500
+
+    Add artists
+
+commit 842a3dd16db54981634c7e6d3a9299b60053f84b
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Wed Mar 29 17:33:10 2017 -0500
+
+    Add more songs
+
+commit 9edc034cadabfe7932a783aca5c95c66dc242966
+Author: Roger Craycroft <rogercraycroft@wireless-10-147-103-65.public.utexas.edu>
+Date:   Wed Mar 29 17:27:57 2017 -0500
+
+    Delete unnecessary style elements
+
+commit 43029f8d278247bd3770b2fee272d9bb599e96bc
+Author: Blake <bak792@utexas.edu>
+Date:   Wed Mar 22 19:19:28 2017 -0500
+
+    Minor edit in about and new log file
+
+commit 8774066d935b2ee4f303b8f3ac8cea60b6e8ac50
+Author: Blake <bak792@utexas.edu>
+Date:   Wed Mar 22 19:03:49 2017 -0500
+
+    New IDB1.log and updated about
+
+commit 7fd3075d59dab4096dce467347817d9d2911c022
+Author: Blake <bak792@utexas.edu>
+Date:   Wed Mar 22 19:01:19 2017 -0500
+
+    Add .gitignore and Sitemap image files
+
+commit b9d659ec453bbe1af344e2a3969c6b0ff3437224
+Merge: 0d5821a 989bd4d
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Wed Mar 22 18:44:35 2017 -0500
+
+    Add log
+
+commit 0d5821a35b17b1d84a1e75633530afbe1890843c
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Wed Mar 22 18:42:03 2017 -0500
+
+    Add log
+
+commit 989bd4df770c668e2f95cad5ffc3abee384a4562
+Author: Kayla Mayberry <kaynmay@gmail.com>
+Date:   Wed Mar 22 18:40:11 2017 -0500
+
+    change commit number
+
+commit 58ace26af000cdb9617246823d6921193b24402e
+Author: Kayla Mayberry <kaynmay@gmail.com>
+Date:   Wed Mar 22 18:39:28 2017 -0500
+
+    add title
+
+commit f70f75ed20fc7838fbc2e5c5618a6700477d1d83
+Author: Kayla Mayberry <kaynmay@gmail.com>
+Date:   Wed Mar 22 18:39:08 2017 -0500
+
+    add title
+
+commit 464fe9c717dad48db77e9602b705e342f8398e03
+Author: Kayla Mayberry <kaynmay@gmail.com>
+Date:   Wed Mar 22 18:38:42 2017 -0500
+
+    add title
+
+commit e004708bb2b788f9365e5cb85a15728212686cbd
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Wed Mar 22 18:34:14 2017 -0500
+
+    Add log
+
+commit 3600c2e9776f16c3cb1f33f32eec650a70be658c
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Wed Mar 22 18:17:06 2017 -0500
+
+    Edit about page
+
+commit 6a9d57949c32a14e8f7e625469b55778674fdc6a
+Author: Roger Craycroft <rogercraycroft@wireless-10-147-228-225.public.utexas.edu>
+Date:   Wed Mar 22 18:14:33 2017 -0500
+
+    Add website and location links
+
+commit 9a93fb22326c0608550f2ac966a19db0486d8261
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Wed Mar 22 17:12:40 2017 -0500
+
+    add titles to model pages
+
+commit 48e9853eb8a40085a80f82de1bd9b9e8eb4d5f3d
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Wed Mar 22 16:21:47 2017 -0500
+
+    Add a title to each page and change other parts of the design
+
+commit 4359e8bd93950c51b0a22e6a72527afba1d370e5
+Author: Blake <bak792@utexas.edu>
+Date:   Tue Mar 21 20:51:39 2017 -0500
+
+    More link changes
+
+commit e5251c3fdf5823209fbd2a66f28a11377f3335ac
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Tue Mar 21 20:44:14 2017 -0500
+
+    Fixed broken link
+
+commit 7f14ca4f90ea4c86dd28be5dcf59b64b43246d60
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Tue Mar 21 20:37:21 2017 -0500
+
+    Updated links and folders
+
+commit 0f169db8a50029652c8c7ba2a1c0f745cd583d46
+Merge: 6fd4084 053646a
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Tue Mar 21 20:34:49 2017 -0500
+
+    Merge branch 'master' of https://github.com/bkapp15/bkapp15.github.io
+
+commit 053646adfb64ed49354a323bd427a6e0c7735b77
+Merge: 24916fa f85ad30
+Author: Blake <bak792@utexas.edu>
+Date:   Tue Mar 21 20:34:25 2017 -0500
+
+    Merge branch 'master' of https://github.com/bkapp15/bkapp15.github.io
+
+commit 6fd4084ade41108c0c23ef69f650b0c4eee07b6f
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Tue Mar 21 20:34:11 2017 -0500
+
+    Updated links
+
+commit 24916faff350fba6d4d1046823cbabe09bc1d16b
+Author: Blake <bak792@utexas.edu>
+Date:   Tue Mar 21 20:34:09 2017 -0500
+
+    Update links in SongPages
+
+commit f85ad30a117a44672221424057693a917f236e26
+Author: Rebecca Bingham <Rebecca Bingham>
+Date:   Tue Mar 21 20:33:48 2017 -0500
+
+    Artist Link changes
+
+commit 0451312966459322b6802269a382c6ed039a6205
+Author: Roger Craycroft <rogercraycroft@wireless-10-147-228-225.public.utexas.edu>
+Date:   Tue Mar 21 20:32:37 2017 -0500
+
+    Change links to correspond to github folder paths
+
+commit a095bff86cf1fb9c3b9545715a22253842368c93
+Author: Blake <bak792@utexas.edu>
+Date:   Tue Mar 21 20:30:53 2017 -0500
+
+    Update links in SongPages
+
+commit 94ae31cc65d5d50d19bc614119bfbf2850df8289
+Author: Roger Craycroft <rogercraycroft@wireless-10-147-228-225.public.utexas.edu>
+Date:   Tue Mar 21 20:26:57 2017 -0500
+
+    Add break line
+
+commit d3e6763b77b3ac8f150d4c3e78518e71ea190505
+Merge: 85e6bd3 ba27022
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Tue Mar 21 20:25:31 2017 -0500
+
+    Implemented folders
+
+commit ba2702277a8d504ceee40e5c89d3b017c33b83a6
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Tue Mar 21 20:23:40 2017 -0500
+
+    Implemented folders
+
+commit 85e6bd3b93abd79841cbe3b41a054db4053c75da
+Author: Allen91 <Allen91@users.noreply.github.com>
+Date:   Tue Mar 21 20:18:30 2017 -0500
+
+    Update index.html
+
+commit b94bf8bbe37046f96fe249d6020d069b6c5d1107
+Merge: 3af394f c05a356
+Author: Rebecca Bingham <Rebecca Bingham>
+Date:   Tue Mar 21 20:17:24 2017 -0500
+
+    Merge branch 'master' of https://github.com/bkapp15/bkapp15.github.io
+
+commit 3af394f5af6f856dd9e4af27f0af989bcb0d835b
+Author: Rebecca Bingham <Rebecca Bingham>
+Date:   Tue Mar 21 20:17:17 2017 -0500
+
+    Rebecca Image
+
+commit c05a356601fae40ff6ba8c8faab4b015af0ec58c
+Author: Allen91 <Allen91@users.noreply.github.com>
+Date:   Tue Mar 21 20:17:02 2017 -0500
+
+    Update musicmadness.css
+
+commit cf9d8b75b0a033bc19e46c328a342eb0be7b230f
+Author: Allen91 <Allen91@users.noreply.github.com>
+Date:   Tue Mar 21 20:15:58 2017 -0500
+
+    Update musicmadness.css
+
+commit 673eb519c773f4b13d78ad029a83ba2c3ed76756
+Author: Allen91 <Allen91@users.noreply.github.com>
+Date:   Tue Mar 21 20:12:53 2017 -0500
+
+    Added background image
+
+commit f9914d111abe4e122bba4d4368537a3c04ae77f2
+Author: Allen91 <Allen91@users.noreply.github.com>
+Date:   Tue Mar 21 20:11:11 2017 -0500
+
+    Updated background color
+
+commit 94e52d44fd90422319fe556131a7ec8f52aafa36
+Author: Allen91 <Allen91@users.noreply.github.com>
+Date:   Tue Mar 21 20:09:39 2017 -0500
+
+    Adding background color
+
+commit fa22fecd6254457946f99979ec9c838c4431fe27
+Author: Rebecca Bingham <Rebecca Bingham>
+Date:   Tue Mar 21 20:06:48 2017 -0500
+
+    Center Artist Pages
+
+commit fcf8b782a33019f15620a546bed130ae1fff2fe3
+Author: Kayla Mayberry <kaynmay@gmail.com>
+Date:   Tue Mar 21 20:00:42 2017 -0500
+
+    add photo for about page
+
+commit f6f581e2eb1800b0d8a12bf422f87a256c36d6b3
+Author: Blake <bak792@utexas.edu>
+Date:   Tue Mar 21 19:57:25 2017 -0500
+
+    Updated SongPages with links, youtube embedding
+
+commit 54a5839b349b67b26a8fc29e086a740cf4e6e0e2
+Author: Rebecca Bingham <Rebecca Bingham>
+Date:   Tue Mar 21 19:54:41 2017 -0500
+
+    Social Media for Artists
+
+commit af089ad257e70ffddc59a0bd0adfb91d79a15186
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Tue Mar 21 19:50:01 2017 -0500
+
+    Added map link
+
+commit 838f6db5b93ad98266b0a8b3eab8d360da162b73
+Author: Roger Craycroft <rogercraycroft@wireless-10-147-228-225.public.utexas.edu>
+Date:   Tue Mar 21 19:48:58 2017 -0500
+
+    Center social media
+
+commit 2cf851681cafc7b99ab59393e9ac37025039a455
+Author: Allen91 <Allen91@users.noreply.github.com>
+Date:   Tue Mar 21 19:41:32 2017 -0500
+
+    Add instgram css
+
+commit 2e985def597ba53c372188c738764115693ec131
+Author: Roger Craycroft <rogercraycroft@wireless-10-147-228-225.public.utexas.edu>
+Date:   Tue Mar 21 19:38:45 2017 -0500
+
+    Add social media links
+
+commit 6881326f932f620507510fe8308d278d4363587b
+Author: Allen91 <Allen91@users.noreply.github.com>
+Date:   Tue Mar 21 19:28:39 2017 -0500
+
+    Added social media button css
+
+commit a8cdb99ce8586f0b02d61b98e7e4b2a1124e1ed1
+Merge: 3f14a29 e27ed8e
+Author: Rebecca Bingham <Rebecca Bingham>
+Date:   Tue Mar 21 19:20:31 2017 -0500
+
+    Merge branch 'master' of https://github.com/bkapp15/bkapp15.github.io
+
+commit e27ed8e56f123a0c5f6f9ae6bb51f37713a16af2
+Merge: afce37c ce434a6
+Author: Blake <bak792@utexas.edu>
+Date:   Tue Mar 21 19:19:36 2017 -0500
+
+    Merge branch 'master' of https://github.com/bkapp15/bkapp15.github.io
+
+commit afce37c9b709046c62af8dfca27b9eb1b9fca49a
+Author: Blake <bak792@utexas.edu>
+Date:   Tue Mar 21 19:19:23 2017 -0500
+
+    minor change to 21pilots.html
+
+commit ce434a64dc8020adcb10e5fe5ac75dfb2fed394a
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Tue Mar 21 19:18:14 2017 -0500
+
+    Updated model pages
+
+commit 3f14a292603571697d99c7b2180f918276a04373
+Merge: 9e80602 2a4f026
+Author: Rebecca Bingham <Rebecca Bingham>
+Date:   Tue Mar 21 19:16:52 2017 -0500
+
+    Merge branch 'master' of https://github.com/bkapp15/bkapp15.github.io
+
+commit 9e80602a115a8ecfa2ad5bec1dbe9eaaffa37238
+Author: Rebecca Bingham <Rebecca Bingham>
+Date:   Tue Mar 21 19:16:10 2017 -0500
+
+    Add tab to top of artist pages
+
+commit 2a4f026f5fa31062b18aeb781d4404bd92db680b
+Merge: f5217d8 0e90f28
+Author: Blake <bak792@utexas.edu>
+Date:   Tue Mar 21 19:14:45 2017 -0500
+
+    Merge branch 'master' of https://github.com/bkapp15/bkapp15.github.io
+
+commit f5217d8b87d05e816a9323b0fad1225aa0b8c705
+Author: bak792 <bak792@cs.utexas.edu>
+Date:   Tue Mar 21 19:13:35 2017 -0500
+
+    Updated SongPages with data, navigation bar
+
+commit 0e90f28af5976a1bbc47bee74da443fd0ed7d72e
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Tue Mar 21 19:07:34 2017 -0500
+
+    Updated model pages to add navigation tab
+
+commit adab523ff1df29283168763ffc35acbad84f9f48
+Author: Allen91 <Allen91@users.noreply.github.com>
+Date:   Tue Mar 21 18:59:56 2017 -0500
+
+    Added Allen.jpg
+
+commit 7e934e7e0187eb35ea4b252fe0053b881e14084e
+Merge: 1da390c fbd6ef1
+Author: Roger Craycroft <rogercraycroft@wireless-10-147-228-225.public.utexas.edu>
+Date:   Tue Mar 21 18:59:09 2017 -0500
+
+    Merge branch 'master' of https://github.com/bkapp15/bkapp15.github.io
+
+commit fbd6ef19dce58310076278b9d7c1cf63b66eaa54
+Author: Allen91 <Allen91@users.noreply.github.com>
+Date:   Tue Mar 21 18:58:45 2017 -0500
+
+    Delete allen.jpg
+
+commit 1da390cd52c34b97fd4069b9563578330f6ade97
+Author: Roger Craycroft <rogercraycroft@wireless-10-147-228-225.public.utexas.edu>
+Date:   Tue Mar 21 18:58:41 2017 -0500
+
+    Add nav bar
+
+commit 31855d9fe8940df45718d9453ede765507e61f60
+Author: Allen91 <Allen91@users.noreply.github.com>
+Date:   Tue Mar 21 18:58:33 2017 -0500
+
+    Updated memberPics link
+
+commit e2156094392cd89e0f04b41f769c25110c96e179
+Author: Allen91 <Allen91@users.noreply.github.com>
+Date:   Tue Mar 21 18:57:05 2017 -0500
+
+    Updated memberPics link
+
+commit dbfca5842ea4fd61a132a61937f4b9e055fd05e1
+Author: Allen91 <Allen91@users.noreply.github.com>
+Date:   Tue Mar 21 18:55:53 2017 -0500
+
+    Added allen.jpg
+
+commit f405272ff27020736782929a09f0c6cbf485b165
+Author: Allen91 <Allen91@users.noreply.github.com>
+Date:   Tue Mar 21 18:55:27 2017 -0500
+
+    Delete allen.jpg
+
+commit 02ae4ba4c892d06e7988ff1699629dd0f132c1a9
+Author: Roger C <roger2795@gmail.com>
+Date:   Tue Mar 21 18:51:52 2017 -0500
+
+    Add files via upload
+
+commit b9dd0ed52b3a4734b0109e46ed359eb93cc7a2fe
+Merge: 0439ef0 ba0688b
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Tue Mar 21 18:50:58 2017 -0500
+
+    Merge branch 'master' of https://github.com/bkapp15/bkapp15.github.io
+
+commit 0439ef02469e769bb850b7cc047620c5feeebbd7
+Merge: b73ed66 f3f902e
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Tue Mar 21 18:49:31 2017 -0500
+
+    added css, updated about, added allen.jpg
+
+commit ba0688be803acff033e8568d73dc2c1d98b993e9
+Merge: fb7fd1b b73ed66
+Author: bak792 <bak792@cs.utexas.edu>
+Date:   Tue Mar 21 18:44:12 2017 -0500
+
+    Merge branch 'master' of https://github.com/bkapp15/bkapp15.github.io
+
+commit fb7fd1b0a60117f1024182821ef9d23706f87dd9
+Author: bak792 <bak792@cs.utexas.edu>
+Date:   Tue Mar 21 18:43:32 2017 -0500
+
+    Added memberPics folder and my own photo image file
+
+commit 47d805f902f9591d7ec182ab7da09447cdc491da
+Author: bak792 <bak792@cs.utexas.edu>
+Date:   Tue Mar 21 18:42:23 2017 -0500
+
+    Added memberPics folder and my own photo image file
+
+commit f3f902e157aec588f60741bdf97f89ae595be9af
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Tue Mar 21 18:40:33 2017 -0500
+
+    Added css, updated about,
+    added allen.jpg
+
+commit b73ed664ea1f5c45388120937ef77430cea5ebb8
+Author: Roger Craycroft <rogercraycroft@wireless-10-147-228-225.public.utexas.edu>
+Date:   Tue Mar 21 18:34:43 2017 -0500
+
+    Add links to artists and songs
+
+commit 90eaa7fb2dcce8137bcd530291dd9188afb623e6
+Author: Rebecca Bingham <Rebecca Bingham>
+Date:   Tue Mar 21 18:28:48 2017 -0500
+
+    Updated Artist Pages
+
+commit 5b9b8fe206131c70ed6b9d013559f690c5c1f767
+Author: Rebecca Bingham <Rebecca Bingham>
+Date:   Tue Mar 21 17:10:46 2017 -0500
+
+    Updated Artist Pages
+
+commit 054e8abc47d519a98f24b97a63a0d57bdc72b437
+Author: Roger Craycroft <rogercraycroft@Rogers-MacBook-Air.local>
+Date:   Tue Mar 21 15:07:35 2017 -0500
+
+    Add style to label pages
+
+commit 210ec53d699c3f2fc062d7d40e30912e4b30cdc0
+Author: Rebecca Bingham <Rebecca Bingham>
+Date:   Tue Mar 21 13:02:16 2017 -0500
+
+    Updated Beyonce file
+
+commit de25fc10360b41c0a0a1cb0ecafffb92d4a62fed
+Merge: a9652ef 9fa7d20
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Mon Mar 20 21:55:40 2017 -0500
+
+    Merge branch 'dev' of https://github.com/bkapp15/bkapp15.github.io into dev
+
+commit 9fa7d2006b592560d0ed308d319f0e258120bb28
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Mon Mar 20 21:55:16 2017 -0500
+
+    Add links
+
+commit a9652eff3f8dd286ac80d7e1c7a243fb2ce6bfe8
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Mon Mar 20 21:54:41 2017 -0500
+
+    Added splash image and modified index page
+
+commit 5e0ae9b11860868ec6b83422314c0e7d441a22a5
+Merge: 9d8b861 882adc4
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Mon Mar 20 21:49:49 2017 -0500
+
+    Add links
+
+commit 9d8b8612c7323f0bac6f874c0c236d29cc4e7148
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Mon Mar 20 21:48:38 2017 -0500
+
+    Add links
+
+commit 9cb693a43aea1d808cadb8da2bc951803ba0b2ad
+Merge: 069611a 8611f49
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Mon Mar 20 21:42:12 2017 -0500
+
+    Add links
+
+commit 882adc4b33e7092956a18a28226174faff94e863
+Author: bak792 <bak792@cs.utexas.edu>
+Date:   Mon Mar 20 21:41:27 2017 -0500
+
+    Add SongPages folder and the 3 (empty) song pages.
+
+commit 069611adc011422a6031f8d633b2912cad19ad71
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Mon Mar 20 21:38:25 2017 -0500
+
+    Add links
+
+commit 8611f49370c09135daf5210b9eabfe74c3ab3fb8
+Merge: 883b918 a25b744
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Mon Mar 20 21:36:42 2017 -0500
+
+    Merge branch 'dev' of https://github.com/bkapp15/bkapp15.github.io into dev
+
+commit cef29aa50b3662b51a5a313f49da2935b581c01c
+Merge: a25b744 883b918
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Mon Mar 20 21:34:52 2017 -0500
+
+    Added about page
+
+commit 883b9186b3ec124abff3ca979ede634b80341781
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Mon Mar 20 21:34:28 2017 -0500
+
+    Added about page
+
+commit a25b74409a9c2ada407f45af84c3ccc826b1e343
+Author: Allen91 <Allen91@users.noreply.github.com>
+Date:   Mon Mar 20 21:17:52 2017 -0500
+
+    Create CNAME
+
+commit 6d42575be42e17169f391563c32364d05f2d7297
+Merge: 6bd2b61 69a7173
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Mon Mar 20 21:16:00 2017 -0500
+
+    Add CSS
+
+commit 69a7173685d5afe5986a7e4c66163dcb6caf9a1a
+Merge: 761a355 2f69207
+Author: Roger Craycroft <rogercraycroft@wireless-10-147-228-225.public.utexas.edu>
+Date:   Mon Mar 20 21:09:24 2017 -0500
+
+    Merge branch 'master' of https://github.com/bkapp15/bkapp15.github.io into dev
+
+commit 761a355ae10e3d0d49f3a059d4948833bcf79592
+Merge: 09ad554 8604f9d
+Author: Roger Craycroft <rogercraycroft@wireless-10-147-228-225.public.utexas.edu>
+Date:   Mon Mar 20 21:08:44 2017 -0500
+
+    Merge branch 'master' into dev
+
+commit 2f692076514b859b5b00a33e056088ac422dcecf
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Mon Mar 20 21:05:10 2017 -0500
+
+    index page modifications
+
+commit 09ad55472ea875f6ca367f7c359161f1f8938dae
+Merge: e560508 2ef88d9
+Author: Roger Craycroft <rogercraycroft@wireless-10-147-228-225.public.utexas.edu>
+Date:   Mon Mar 20 21:02:49 2017 -0500
+
+    Merge branch 'master' into dev
+
+commit 8604f9dc8648de2637e7d1efe975f053c220d8a6
+Author: Rebecca Bingham <rnb628@cs.utexas.edu>
+Date:   Mon Mar 20 21:02:04 2017 -0500
+
+    First draft for Artist pages
+
+commit e56050837582a6a8824cf8b55354da310fa7b043
+Merge: 9351274 0b1550e
+Author: Roger Craycroft <rogercraycroft@wireless-10-147-228-225.public.utexas.edu>
+Date:   Mon Mar 20 21:01:16 2017 -0500
+
+    Create record label pages
+
+commit 6bd2b61d625f1f5f4f5930852b49f7c25443adaf
+Merge: 915dc89 2ef88d9
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Mon Mar 20 21:00:46 2017 -0500
+
+    Add CSS
+
+commit 915dc890c36feb83e3bc217882fa76c87ec5b1a6
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Mon Mar 20 20:58:32 2017 -0500
+
+    Add CSS
+
+commit 2ef88d931c4d1f4cf55127194b5eb6ced3ffd517
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Mon Mar 20 20:46:55 2017 -0500
+
+    Linked pages to tabs
+
+commit 7eeb67ce6d5bff25034aa50d41c2c9335c3795aa
+Merge: 9fcd4e4 5cd9413
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Mon Mar 20 20:40:27 2017 -0500
+
+    edit index
+
+commit 93512741e362b1f06afc5bef6aee7d0a58dd7cca
+Author: Roger Craycroft <rogercraycroft@wireless-10-147-228-225.public.utexas.edu>
+Date:   Mon Mar 20 20:34:12 2017 -0500
+
+    Create record label pages
+
+commit 5cd94139e4a788d37216b88bb3863be35e42a038
+Merge: 9b07045 60c57c5
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Mon Mar 20 20:31:55 2017 -0500
+
+    Modified tabs in index
+
+commit 9b07045800d0dcfdea2bd1eb744a80631c7951af
+Merge: ccbb270 66df0eb
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Mon Mar 20 20:09:42 2017 -0500
+
+    Modified index to have tabs
+
+commit 0b1550e0e572bec147c97b23e7696bafbf7c01f0
+Author: Kayla Mayberry <kaynmay@gmail.com>
+Date:   Mon Mar 20 20:31:05 2017 -0500
+
+    Delete README.md
+
+commit 3dad09d159326ee2c8e5acc15d1e3c94ee7db48c
+Author: Kayla Mayberry <kaynmay@gmail.com>
+Date:   Mon Mar 20 20:30:53 2017 -0500
+
+    Delete CNAME
+
+commit f39765f019ef1d29a33ba5ede72dbdf4c1e7f03d
+Author: Kayla Mayberry <kaynmay@gmail.com>
+Date:   Mon Mar 20 20:30:39 2017 -0500
+
+    Delete index.html
+
+commit 60c57c5c7babce46303b66b719d8c6136167f28f
+Merge: ccbb270 66df0eb
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Mon Mar 20 20:09:42 2017 -0500
+
+    Modified index to have tabs
+
+commit 66df0ebf972ccc8be70a3eab61e4a103d4fd0db2
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Mon Mar 20 19:49:28 2017 -0500
+
+    Modified Index page to include tabs
+
+commit 9fcd4e4e24ee0724c379850bff79df1577e006a1
+Author: Kayla Mayberry <kaynmay@cs.utexas.edu>
+Date:   Mon Mar 20 20:04:31 2017 -0500
+
+    Add pages for artists, songs, and labels
+
+commit ccbb2703e426ed1427ba16b3ceffbb3dd6be6cd9
+Merge: 8e6301e 2c87df8
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Mon Mar 20 19:54:32 2017 -0500
+
+    Merge branch 'dev'- modified index tabs
+
+commit 2c87df87676ac5ab2e4ac7b417dcfecb950cf27c
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Mon Mar 20 19:49:28 2017 -0500
+
+    Modified Index page to include tabs
+
+commit 8e6301e36ca59e3f676cb0c28eb5912bc040e6a6
+Author: allen91 <allen91@cs.utexas.edu>
+Date:   Mon Mar 20 19:49:28 2017 -0500
+
+    Modified Index page to include tabs
+
+commit d9a4b8e36f6c116b3fbbb7debf8218d2b8c212de
+Author: Allen91 <Allen91@users.noreply.github.com>
+Date:   Mon Mar 20 19:22:14 2017 -0500
+
+    Create index.html
+
+commit f006a9459822987132f17332fa6887c6f6bc1cc1
+Author: Allen91 <Allen91@users.noreply.github.com>
+Date:   Mon Mar 20 19:09:54 2017 -0500
+
+    Link to domain
+
+commit 90b05cb3ff6d4f3b084068d2851f2f9b59e155ee
+Author: bkapp15 <bak792@utexas.edu>
+Date:   Wed Mar 8 14:09:02 2017 -0600
+
+    Update README.md
+
+commit e5a97db45ac871c930b7424c22ab254a868ab0ea
+Author: bkapp15 <bak792@utexas.edu>
+Date:   Wed Mar 8 13:59:54 2017 -0600
+
+    Initial commit
